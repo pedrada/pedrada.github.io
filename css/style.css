@@ -793,7 +793,7 @@
 			font-weight: 600;
 		}
 
-        #logo a > img {
+        .img-logo {
             height: 50px;
         }
 
