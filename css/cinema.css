@@ -1,5 +1,26 @@
 .image-navigator {
-    background-image:url(../images/cinema.jpg);
-    width: 100%;
-    height: inherit;
+    background-image: url('../images/cinema-nav.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 60vw;
 }
+
+.image-navigator < #main {
+    padding: 0px;
+}
+
+.image-navigator > img {
+    width: 100%;
+    height: auto;
+}
+
+#main {
+    padding: 0px 0px;
+}
+
+.profile-button {
+    position: absolute;
+    background: transparent;
+    border: none !important;
+}
+

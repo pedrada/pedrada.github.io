@@ -829,7 +829,7 @@
 				text-transform: uppercase;
 				font-size: 1.1em;
 				outline: 0;
-				color: #252525;
+				color: #FFF;
 			}
 
 			#nav li.active a
@@ -1022,3 +1022,7 @@
 		text-decoration: none;
 		color: rgba(255,255,255,.6);
 	}			
+
+.invisible {
+    display: none;
+}
