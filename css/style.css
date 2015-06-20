@@ -1026,3 +1026,6 @@
 .invisible {
     display: none;
 }
+
+.center {
+	margin: auto;
