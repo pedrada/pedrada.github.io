@@ -51,6 +51,19 @@
 		"about": "Gustavo Borg é um jovem estudante que, depois de passar um ano tendo aulas de final de semana para ingressar na universidade, finalmente consegue uma vaga no curso de Midialogia. Para comemorar, revisita vários momentos marcantes de seu passado durante uma viagem de carro até sua antiga escola técnica. Quanto mais Borg recorda as decepções e desilusões que viveu, incluindo projetos de escrita abandonados e uma escola de inglês que não vingou, mais ele sente que encontrou seu lugar na Unicamp, onde ele lhe foi dado ensinamentos sobre responsabilidade, confiança, amizade, perseverança e auto-crítica.",
 		"filmLink":"http://www.imdb.com/title/tt0050986/"
 	},
+	"juMazza" :{
+		"title": "Morangos Semioticos",
+		"name": "Gustavo de Andrade",
+		"birthdate": "xx/xx/xxxx",
+		"from": "São Paulo - SP",
+		"researchProject": "gustavo.pdf",
+		"article": "gustavo.pdf",
+		"productProject": "gustavo.pdf",
+		"product": "http://www.google.com",
+		"image": "gustavo.jpg",
+		"about": "Gustavo Borg é um jovem estudante que, depois de passar um ano tendo aulas de final de semana para ingressar na universidade, finalmente consegue uma vaga no curso de Midialogia. Para comemorar, revisita vários momentos marcantes de seu passado durante uma viagem de carro até sua antiga escola técnica. Quanto mais Borg recorda as decepções e desilusões que viveu, incluindo projetos de escrita abandonados e uma escola de inglês que não vingou, mais ele sente que encontrou seu lugar na Unicamp, onde ele lhe foi dado ensinamentos sobre responsabilidade, confiança, amizade, perseverança e auto-crítica.",
+		"filmLink":"http://www.imdb.com/title/tt0050986/"
+	},
 	"mona" :{
 		"title": "Morangos Semioticos",
 		"name": "Gustavo de Andrade",

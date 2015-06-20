@@ -24,3 +24,19 @@
     border: none !important;
 }
 
+.profile-button:hover  {
+	cursor: pointer;
+}
+
+.profile-button > h3 {
+	visibility: hidden;
+	color: #FFF;
+	width: 100%;
+}
+
+.profile-button:hover > h3 {
+	visibility: visible;
+	top: -30px;
+	position: relative;
+}
+
