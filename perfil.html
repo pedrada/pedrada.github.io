@@ -36,10 +36,20 @@
 		</section>
 		<section class="12u">
 			<div class="divider"></div>
-<!--			<button name="{{=it.previous}}" class="button medium"><h3>Anterior</h3></button>-->
-<!--	        <button name="{{=it.next}}" class="button medium"><h3>Próximo</h3></button>-->
-	        <button name="cinema.html" class="button medium"><h3>Voltar para perfis</h3></button>
+			<button name="{{=it.previous}}" class="button medium btnNavigate left"><h3>Anterior</h3></button>
+	        <button name="{{=it.next}}" class="button medium btnNavigate right"><h3>Próximo</h3></button>
+			<button id="btnBack" class="button medium"><h3>Voltar para perfis</h3></button>
 
 		</section>
 	</div>
 </div>
+
+<script>
+	$("#btnBack").click(function() {
+		$('.main').load('cinema.html');
+	});
+	
+	$(".btnNavigate").click(function() {
+		Profile.loadProfile($(this).attr('name'), $('#main'));
+	});
+</script>
