@@ -255,6 +255,22 @@
         "filmLink":"http://www.imdb.com/title/tt2301059/?ref_=fn_al_tt_1",
 		"about": "Kodato sagrou-se a mais jovem campeã do Mundial de Kendô  sem realizar um único toque corporal, mas isso não significa que na sua vida exista um rumo. De volta ao Japão,  junto com mais duas aficionadas por café, ela decide visitar uma velha amiga que não vê desde os tempos de New York Film Academy, e que hoje vive em hospital psiquiátrico após Kodato lhe ter negado abraços sucessivamente. Na road trip em que embarca, não faltarão oportunidades para bandejar duas vezes, acordar às 4h da manhã (ou fritar até as 4h da manhã) e enfrentar as grandes contradições de sua vida na busca por respostas, uma jornada introspectiva que a mudará para sempre."
 	},
+    "marinaMidori" :{
+		"title": "Andaluz, andasombra",
+		"name": "Marina Midori",
+		"birthdate": "24/03/1996",
+		"from": "São José do Rio Preto - SP",
+		"researchProject": "marinaMidori.pdf",
+		"article": "marinaMidori.pdf",
+		"productProject": "marinaMidori.pdf",
+		"product": "http://www.google.com",
+		"image": "marinaMidori.png",
+		"quote": "!",
+        "next": "dino",
+        "previous": "marinaKodato",
+        "filmLink":"http://www.imdb.com.br/title/tt0020530/?ref_=fn_al_tt_1",
+		"about": "Marina é uma não-personagem do pesadelo de uma mente anônima. Vivenciando cenas oníricas baseadas nos fundamentos psicanalíticos do movimento surrealista, ela tem seu olho cortado à navalha. Isso irá transformar seu estado de pertencimento no estudo do audiovisual em pesadelo, por a faz perder sua tão importante capacidade óptica-visual, ou em sonho, fazendo-a valorizar ainda mais a visualidade, sendo capar de enxergar através de outros sentidos? Sendo intensa, Midori vai buscar multiplicidades de interpretações para a vida, transcendendo a lógica narrativa que chamamos de realidade."
+    },
 	"juBonilha" :{
 		"title": "Meu Malvado Favorixu",
 		"name": "Juliana Bonilha",
