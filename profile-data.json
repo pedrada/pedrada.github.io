@@ -37,7 +37,7 @@
 		"article": "gustavo.pdf",
 		"productProject": "gustavo.pdf",
 		"product": "http://www.google.com",
-		"image": "gustavo.jpg",
+		"image": "quel.png",
 		"about": "Gustavo Borg é um jovem estudante que, depois de passar um ano tendo aulas de final de semana para ingressar na universidade, finalmente consegue uma vaga no curso de Midialogia. Para comemorar, revisita vários momentos marcantes de seu passado durante uma viagem de carro até sua antiga escola técnica. Quanto mais Borg recorda as decepções e desilusões que viveu, incluindo projetos de escrita abandonados e uma escola de inglês que não vingou, mais ele sente que encontrou seu lugar na Unicamp, onde ele lhe foi dado ensinamentos sobre responsabilidade, confiança, amizade, perseverança e auto-crítica.",
 		"filmLink":"http://www.imdb.com/title/tt0050986/"
 	},
@@ -116,8 +116,11 @@
 		"productProject": "antonio.pdf",
 		"product": "http://www.google.com",
 		"image": "antonio.png",
+		"quote": "Metal? Eu gosto de metal.",
 		"about": "Antônio é um coelho metaleiro tocador de lira profético com a voz do Frank Zappa que pode ser visto somente por Donnie, um jovem brilhante e excêntrico. Um dia, baseando-se em seu contato com jogos de RPG na infância, Antônio atrai Donnie para fora de sua casa e lhe diz que o mundo acabará dentro de um mês. Donnie inicialmente não acredita na profecia, mas momentos depois um avião cai bem no telhado de sua casa, podendo tê-lo matado caso estivesse na residência. É quando ele começa a se perguntar qual o fundo de verdade da previsão de Antônio, que, por conta do seu orgulho, não deixa Donnie se esquecer da sua presença, induzindo-o a ações destrutivas e levando-o ao lado sombrio do cotidiano. ",
-		"filmLink":"http://www.imdb.com.br/title/tt0246578/?ref_=nv_sr_1"
+		"filmLink":"http://www.imdb.com.br/title/tt0246578/?ref_=nv_sr_1",
+		"next": "ariane",
+		"previous": "angelica"
 	},
 	"ariane" :{
 		"title": "Morangos Semioticos",
