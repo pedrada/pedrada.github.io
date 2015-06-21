@@ -2,7 +2,7 @@
 	"gustavo" :{
 		"title": "Morangos Semioticos",
 		"name": "Gustavo de Andrade",
-		"birthdate": "xx/xx/xxxx",
+		"birthdate": "11/06/1996",
 		"from": "São Paulo - SP",
 		"researchProject": "gustavo.pdf",
 		"article": "gustavo.pdf",
@@ -13,17 +13,20 @@
 		"filmLink":"http://www.imdb.com/title/tt0050986/"
 	},
 	"alexandre" :{
-		"title": "Morangos Semioticos",
-		"name": "Gustavo de Andrade",
-		"birthdate": "xx/xx/xxxx",
-		"from": "São Paulo - SP",
-		"researchProject": "gustavo.pdf",
-		"article": "gustavo.pdf",
-		"productProject": "gustavo.pdf",
+		"title": "MIV - Made In Valinius",
+		"name": "Alexandre Lopes",
+		"birthdate": "29/05/1997",
+		"from": "Campinas - SP",
+		"researchProject": "alexandre.pdf",
+		"article": "alexandre.pdf",
+		"productProject": "alexandre.pdf",
 		"product": "http://www.google.com",
-		"image": "gustavo.jpg",
-		"about": "Gustavo Borg é um jovem estudante que, depois de passar um ano tendo aulas de final de semana para ingressar na universidade, finalmente consegue uma vaga no curso de Midialogia. Para comemorar, revisita vários momentos marcantes de seu passado durante uma viagem de carro até sua antiga escola técnica. Quanto mais Borg recorda as decepções e desilusões que viveu, incluindo projetos de escrita abandonados e uma escola de inglês que não vingou, mais ele sente que encontrou seu lugar na Unicamp, onde ele lhe foi dado ensinamentos sobre responsabilidade, confiança, amizade, perseverança e auto-crítica.",
-		"filmLink":"http://www.imdb.com/title/tt0050986/"
+		"image": "alexandre.png",
+		"about": "Nos confins da Via Láctea, toda a forma de vida é dominada pelo Império de Valinius, cuja espécie dominante surgiu e se manteve a partir do Lupulius. Quando a falta de Lupulius surge para ameaçar o bem estar dos valiniuanos, Parminius, um bravo guerreiro, escolhido por suas habilidades de disfarce e desaparecer em qualquer situação, era o mais hábil para manter o segredo da existência de seu povo durante a busca desse recurso vital em outro planeta. Na Terra, sob o pseudônimo de Alexandre Lopes De Oliveira Prates Parma, Parminius descobre a Cerveja, um elemento que se assemelha ao Lupulius, fazendo com que o nobre guerreiro entre numa luta contra a Agência Fiscalizadora de Alienígenas Infiltrados para salvar seu povo.",
+		"filmLink":"http://www.imdb.com/title/tt0050986/",
+		"quote": "Sucessozzzz...",
+		"next": "ana",
+		"previous": "victoria"
 	},
 	"quel" :{
 		"title": "Morangos Semioticos",
@@ -104,17 +107,17 @@
 		"filmLink":"http://www.imdb.com/title/tt0050986/"
 	},
 	"antonio" :{
-		"title": "Morangos Semioticos",
-		"name": "Gustavo de Andrade",
-		"birthdate": "xx/xx/xxxx",
-		"from": "São Paulo - SP",
-		"researchProject": "gustavo.pdf",
-		"article": "gustavo.pdf",
-		"productProject": "gustavo.pdf",
+		"title": "Antonnie Darkko",
+		"name": "Antonio Vianna",
+		"birthdate": "22/07/1997",
+		"from": "Borebi - SP",
+		"researchProject": "antonio.pdf",
+		"article": "antonio.pdf",
+		"productProject": "antonio.pdf",
 		"product": "http://www.google.com",
-		"image": "gustavo.jpg",
-		"about": "Gustavo Borg é um jovem estudante que, depois de passar um ano tendo aulas de final de semana para ingressar na universidade, finalmente consegue uma vaga no curso de Midialogia. Para comemorar, revisita vários momentos marcantes de seu passado durante uma viagem de carro até sua antiga escola técnica. Quanto mais Borg recorda as decepções e desilusões que viveu, incluindo projetos de escrita abandonados e uma escola de inglês que não vingou, mais ele sente que encontrou seu lugar na Unicamp, onde ele lhe foi dado ensinamentos sobre responsabilidade, confiança, amizade, perseverança e auto-crítica.",
-		"filmLink":"http://www.imdb.com/title/tt0050986/"
+		"image": "antonio.png",
+		"about": "Antônio é um coelho metaleiro tocador de lira profético com a voz do Frank Zappa que pode ser visto somente por Donnie, um jovem brilhante e excêntrico. Um dia, baseando-se em seu contato com jogos de RPG na infância, Antônio atrai Donnie para fora de sua casa e lhe diz que o mundo acabará dentro de um mês. Donnie inicialmente não acredita na profecia, mas momentos depois um avião cai bem no telhado de sua casa, podendo tê-lo matado caso estivesse na residência. É quando ele começa a se perguntar qual o fundo de verdade da previsão de Antônio, que, por conta do seu orgulho, não deixa Donnie se esquecer da sua presença, induzindo-o a ações destrutivas e levando-o ao lado sombrio do cotidiano. ",
+		"filmLink":"http://www.imdb.com.br/title/tt0246578/?ref_=nv_sr_1"
 	},
 	"ariane" :{
 		"title": "Morangos Semioticos",
@@ -169,17 +172,20 @@
 		"filmLink":"http://www.imdb.com/title/tt0050986/"
 	},
 	"ana" :{
-		"title": "Morangos Semioticos",
-		"name": "Gustavo de Andrade",
-		"birthdate": "xx/xx/xxxx",
-		"from": "São Paulo - SP",
-		"researchProject": "gustavo.pdf",
-		"article": "gustavo.pdf",
-		"productProject": "gustavo.pdf",
+		"title": "De volta para a banana",
+		"name": "Ana Beatriz Cortez",
+		"birthdate": "05/02/1997",
+		"from": "Campinas - SP",
+		"researchProject": "ana.pdf",
+		"article": "ana.pdf",
+		"productProject": "",
 		"product": "http://www.google.com",
-		"image": "gustavo.jpg",
-		"about": "Gustavo Borg é um jovem estudante que, depois de passar um ano tendo aulas de final de semana para ingressar na universidade, finalmente consegue uma vaga no curso de Midialogia. Para comemorar, revisita vários momentos marcantes de seu passado durante uma viagem de carro até sua antiga escola técnica. Quanto mais Borg recorda as decepções e desilusões que viveu, incluindo projetos de escrita abandonados e uma escola de inglês que não vingou, mais ele sente que encontrou seu lugar na Unicamp, onde ele lhe foi dado ensinamentos sobre responsabilidade, confiança, amizade, perseverança e auto-crítica.",
-		"filmLink":"http://www.imdb.com/title/tt0050986/"
+		"image": "ana.png",
+		"about": "Anabê (Marty McFly) era daquelas que andava por aí rindo de tudo com seu colete vermelho midiático que a fazia se sentir ao mesmo tempo abraçada e parte de uma equipe de filmagem. Mal sabia ela que o destino de muitos estaria em breve em suas mãos. Em uma noite tempestuosa,  Doc Brown lhe apresenta a invenção com a qual mudará o mundo: o ônibus 330 remasterizado capaz de viajar no tempo. Perseguidos pela máfia das engenharias, raivosa pois nem sabia que essa porra existia, Anabê acidentalmente se envia para o passado, lugar melancólico e sem nenhum curso de Midialogia. Com apenas a roupa do corpo e uma câmera na mão, ela consegue voltar para o presente depois de traumáticas experiências com panfletos. Porém, nada está mais como antes, e de repente ela percebe o porquê: a casca de banana que deixara em cima da mesa de um certo local público de lazer alterou todo o rumo da História. É missão de Anabê, agora, voltar para o passado e garantir que haja um futuro.",
+		"filmLink":"http://www.imdb.com/title/tt0088763/?ref_=nv_sr_1",
+		"quote": "Banana? Vai ser open?",
+		"next": "angelica",
+		"previous": "alexandre"
 	},
 	"ju" :{
 		"title": "Morangos Semioticos",
@@ -286,17 +292,20 @@
 		"filmLink":"http://www.imdb.com/title/tt0050986/"
 	},
 	"angelica" :{
-		"title": "Morangos Semioticos",
-		"name": "Gustavo de Andrade",
-		"birthdate": "xx/xx/xxxx",
-		"from": "São Paulo - SP",
-		"researchProject": "gustavo.pdf",
+		"title": "Angélica no Maravilhoso Prédio da Mídia",
+		"name": "Angélica Ghilardi",
+		"birthdate": "06/02/1997",
+		"from": "Campinas",
+		"researchProject": "angelica.pdf",
 		"article": "gustavo.pdf",
-		"productProject": "gustavo.pdf",
+		"productProject": "angelica.pdf",
 		"product": "http://www.google.com",
-		"image": "gustavo.jpg",
-		"about": "Gustavo Borg é um jovem estudante que, depois de passar um ano tendo aulas de final de semana para ingressar na universidade, finalmente consegue uma vaga no curso de Midialogia. Para comemorar, revisita vários momentos marcantes de seu passado durante uma viagem de carro até sua antiga escola técnica. Quanto mais Borg recorda as decepções e desilusões que viveu, incluindo projetos de escrita abandonados e uma escola de inglês que não vingou, mais ele sente que encontrou seu lugar na Unicamp, onde ele lhe foi dado ensinamentos sobre responsabilidade, confiança, amizade, perseverança e auto-crítica.",
-		"filmLink":"http://www.imdb.com/title/tt0050986/"
+		"image": "angelica.png",
+		"quote": "Nem sei que tá com teseno.",
+		"about": "A vida da jovem e entediada Angélica muda quando a garota, ao seguir um coelho com a incrível habilidade de lamber o próprio cotovelo, cai num buraco que a leva ao Maravilhoso Prédio da Mídia. Quando ela se perde no imenso prédio tentando encontrar o banheiro, conhece a maldosa rainha, que ordena que ela pinte todas as paredes de verde para fazer Chroma keys. Contudo, Angélica, que não é obrigada a NADA, decide pintar as paredes de vermelho e ocupar o Maravilhoso Prédio da Mídia com seus amigos mídios e derrubar o regime tirano da rainha, enfrentando uma série de desafios, dentre eles, colocar ambos os pés atrás da cabeça.",
+		"filmLink":"http://www.imdb.com.br/title/tt0043274/?ref_=nv_sr_2",
+		"next": "antonio",
+		"previous": "ana"
 	},
 	"kellen" :{
 		"title": "Morangos Semioticos",
