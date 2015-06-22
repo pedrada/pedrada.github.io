@@ -63,7 +63,7 @@
 		"image": "juMattos.png",
 		"quote": "Fotografia do filme melhor do que Trento de 1,50 da cantina do IEL.",
         "next": "juBonilha",
-        "previous": "juBruno",
+        "previous": "bella",
         "filmLink":"http://www.imdb.com/title/tt0097757/?ref_=fn_al_tt_1",
 		"about": "Bugo sempre viveu em terras baronesas e recolhia artefatos midialógicos sonhando em um dia adentrar no reino da Midialogia Unicampense. Junto com suas amigas conterrâneas, Quelita e Monalisa, Julia busca um meio de se livrar do tabaco e adquirir mais do matinho bão para que possa, por fim, elevar suas habilidades fotográficas e se adequar ao universo midialógico."
 	},
@@ -79,7 +79,7 @@
         "report":"juMazza.pdf",
 		"image": "juMazza.png",
         "quote": "Ai, gente, to muito puta!",
-        "next": "kellen",
+        "next": "juBruno",
         "previous": "juBonilha",
         "filmLink":"http://www.imdb.com/title/tt0804497/?ref_=fn_al_tt_1",
 		"about": "Mazza viveu uma infância agitada deslocando um membro de seu corpo por semana em suas brincadeiras radicais, falando interminavelmente e cantarolando sem parar. Quando a jovem chega a uma certa idade, seus pais acham melhor interná-la numa clínica a fim de conter suas tendências suicidas, impulsionadas pela ingestão de muita pizza de frango com catupiry e sorvete de menta com chocolate. Na clínica, através do som de Demi Lovato (#staystrong), Mazza consegue lidar com sua impulsão por deslocar membros e se permite apaixonar pelo paciente recém chegado na clínica."
@@ -147,8 +147,8 @@
         "report":"antonio.pdf",
 		"image": "antonio.png",
 		"quote": "Metal? Eu gosto de metal.",
-        "next": "angelica",
-        "previous": "ariane",
+        "next": "ariane",
+        "previous": "angelica",
         "filmLink":"http://www.imdb.com/title/tt0246578/?ref_=nv_sr_1",
 		"about": "Antônio é um coelho metaleiro tocador de lira profético com a voz do Frank Zappa que pode ser visto somente por Donnie, um jovem brilhante e excêntrico. Um dia, baseando-se em seu contato com jogos de RPG na infância, Antônio atrai Donnie para fora de sua casa e lhe diz que o mundo acabará dentro de um mês. Donnie inicialmente não acredita na profecia, mas momentos depois um avião cai bem no telhado de sua casa, podendo tê-lo matado caso estivesse na residência. É quando ele começa a se perguntar qual o fundo de verdade da previsão de Antônio, que, por conta do seu orgulho, não deixa Donnie se esquecer da sua presença, induzindo-o a ações destrutivas e levando-o ao lado sombrio do cotidiano."
 	},
@@ -164,8 +164,8 @@
         "report":"ariane.pdf",
 		"image": "ariane.png",
 		"quote": "Dagaragada",
-        "next": "antonio",
-        "previous": "bruna",
+        "next": "bruna",
+        "previous": "antonio",
         "filmLink":"http://www.imdb.com/title/tt0198781/?ref_=fn_al_tt_1",
 		"about": "Ariane é uma menina superdotada com a incrível capacidade de tirar ótimas fotos e editá-las desde os 2 anos idade. Diferentemente das outras crianças, ela nunca temeu os monstros que eventualmente saiam de seu armário. Certo dia, Ariane decide seguir um dos monstros e acaba descobrindo um novo mundo. A menina fica chocada ao perceber que os monstros assustam crianças como forma de obter energia, então resolve fazer uma série fotográfica para denunciar essa terrível realidade. Quando os monstros descobrem o plano, prendem Ariane, que não fica detida por muito tempo. Graças ao seu incrível poder de afeição e ao seu desejo de salvar as crianças, Ariane busca uma nova fonte de energia para essa dimensão monstruosa."
 	},
@@ -232,8 +232,8 @@
         "report":"ana.pdf",
 		"image": "ana.png",
 		"quote": "Banana? Vai ser open?",
-        "next": "ana",
-        "previous": "victoria",
+        "next": "angelica",
+        "previous": "alexandre",
         "filmLink":"http://www.imdb.com/title/tt0088763/?ref_=fn_al_tt_1",
 		"about": "Anabê (Marty McFly) era daquelas que andava por aí rindo de tudo com seu colete vermelho midiático que a fazia se sentir ao mesmo tempo abraçada e parte de uma equipe de filmagem. Mal sabia ela que o destino de muitos estaria em breve em suas mãos. Em uma noite tempestuosa,  Doc Brown lhe apresenta a invenção com a qual mudará o mundo: o ônibus 330 remasterizado capaz de viajar no tempo. Perseguidos pela máfia das engenharias, raivosa pois nem sabia que essa porra existia, Anabê acidentalmente se envia para o passado, lugar melancólico e sem nenhum curso de Midialogia. Com apenas a roupa do corpo e uma câmera na mão, ela consegue voltar para o presente depois de traumáticas experiências com panfletos. Porém, nada está mais como antes, e de repente ela percebe o porquê: a casca de banana que deixara em cima da mesa de um certo local público de lazer alterou todo o rumo da História. É missão de Anabê, agora, voltar para o passado e garantir que haja um futuro."
 	},
@@ -301,7 +301,7 @@
 		"image": "juBonilha.png",
 		"quote": "Ah não, mano, me respeita.",
         "next": "juMazza",
-        "previous": "juMattos",
+        "previous": "juMatos",
         "filmLink":"http://www.imdb.com/title/tt1323594/?ref_=fn_al_tt_1",
 		"about": "Juliana é mais uma integrante do grupo de minions midiálogos, sendo uma produtora de vídeos, portfólios, produtos audiovisuais, trocadilhos e piadinhas. Unida aos outros de sua espécie, a minion dedica-se a midialogia de forma fiel e séria (ou não), sendo minuciosa e perfeccionista no seu trabalho. Eis então que a mídia impõe uma grande tarefa na vida de Joleana: cuidar da continuidade de um curta metragem. Xu, que está sempre pronta a ajudar, se compromete com essa missão de suma importância para o mundo das artes. Alguns desafios serão encontrados pelo caminho como a fome, o sono, a preguiça e o próprio perfeccionismo, levando-a a querer desistir da p*rra toda. Conseguirá ela deixar toda a tentação de ver filmes e séries, comer pizza, dormir o dia todo e dar role em festas no sambódromo com os outros minions paulistanos de lado para cumprir sua missão?"
 	},
@@ -470,7 +470,7 @@
         "report":"bella.pdf",
 		"image": "bella.png",
 		"quote": "Não dá pra ganhar sempre, migo.",
-        "next": "juMattos",
+        "next": "juMatos",
         "previous": "helo",
         "filmLink":"hhttp://www.imdb.com/title/tt1099212/?ref_=fn_al_tt_1",
 		"about": "Bella Help muda-se para uma nova cidade, onde irá morar sozinha e iniciar sua vida midiáloga. Ao ingressar na UNICAMP, Bella conhece Mário Cullen, um rapaz misterioso que esconde um segredo obscuro. Paralelamente, a jovem reencontra um amigo de infância, Mário Black, que é secretamente apaixonado por ela. Entre shows de divas pop e bandas emo teen, Bella encontra-se sem socorro e em dúvida entre qual dos rapazes deve escolher. Desesperada e com uma dúvida cruel em mãos, Bella decide perguntar aos seus seguidores do twitter com qual dos dois deve ficar. Para enfim decidir-se quem seria o dono de seu coração emogótico, Bella escolhe o melhor tweet com a melhor sugestão: o primeiro que conseguir mudar a expressão facial dela de uma carranca para um sorriso seria o dono de seu coração, já que aprendeu no curso “como deixar de ser periguete e se tornar uma mulher de valor” que deve ser uma mulher direita e entregar-se totalmente ao seu parceiro. Qual dos dois rapazes irá ganhar o coração de Bella Help? Fique ligado na nossa programação e ajude a escolher shippando no twitter com as hashtags #bellullen ou #belleck."

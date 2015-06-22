@@ -6,6 +6,13 @@ $('.profile-button').each(function(i,elem){
     button.css('top', button.attr('top'));
     button.css('left', button.attr('left'));
     button.click(function() {
-		Profile.loadProfile($(this).attr("name"), $(this).parent().parent());
+		var name = $(this).attr("name");
+		if (name == "valente") {
+			$('#main').load('sobre.html');
+		} else if (name == "victorale") {
+			alert("2016 nos cinemas!");
+		} else {
+			Profile.loadProfile(name, $(this).parent().parent());
+		}
     });
 });
