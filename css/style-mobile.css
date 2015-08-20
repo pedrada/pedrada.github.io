@@ -1,7 +1,7 @@
 /*
-	Imagination by TEMPLATED
-    templated.co @templatedco
-    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+	Synchronous by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
 /*********************************************************************************/
@@ -17,7 +17,6 @@
 
 	body
 	{
-		padding-top: 44px;
 	}
 
 	h2, h3, h4, h5, h6
@@ -43,24 +42,10 @@
 	{
 		margin-top: 0 !important;
 	}
-	
-	header
-	{
-	}
 
-	header h2
-	{
-		font-size: 1.8em;
-	}
-
-	header .byline
-	{
-		font-size: 1.2em;
-	}
-	
 	.container
 	{
-		padding: 0em 1em;
+		padding: 0em 2em;
 	}
 	
 	.button
@@ -68,61 +53,73 @@
 		display: block;
 		width: 100%;
 		text-align: center;
-		font-size: 1em;
 	}
 	
-	.medium
+	header
 	{
-		font-size: 1em;
+		margin-bottom: 2.5em;
 	}
 
+	header h2
+	{
+		letter-spacing: normal;
+		text-transform: uppercase;
+		font-weight: 900;
+		font-size: 1.4em;
+		color: #323338;
+	}
+	
 /*********************************************************************************/
 /* UI                                                                            */
 /*********************************************************************************/
 
 	#titleBar
 	{
-		background: url(images/featured-wrapper-bg.jpg) repeat;
+		background: none;
 	}
 
 		#titleBar .title
 		{
-			display: block;
+			display: none;
 			color: #fff;
 			text-align: center;
 			line-height: 44px;
 		}
 
-		#titleBar .toggle
-		{
-			position: absolute;
-			left: 0;
-			top: 0;
-			width: 80px;
-			height: 60px;
-		}
+			#titleBar .toggle:before
+			{
+				content: '';
+				display: block;
+				width: 60px;
+				height: 44px;
+				background: rgba(0,0,0,0.5);
+				border-radius: 4px;
+				position: absolute;
+				left: 5px;
+				top: 5px;
+			}
 
 			#titleBar .toggle:after
 			{
 				content: '';
 				display: block;
 				width: 20px;
-				height: 12px;
+				height: 20px;
 				position: absolute;
-				left: 10px;
-				top: 15px;
-				background: url('images/toggle.svg') 0px 0px no-repeat;
-				opacity: 0.5;
+				left: 25px;
+				top: 20px;
+				background: url('images/mobileUI-site-nav-opener-bg.svg') 0px 0px no-repeat;
+				opacity: 0.50;
 			}
 
 			#titleBar .toggle:active:after
 			{
-				opacity: 0.75;
+				opacity: 0.5;
 			}
 
 	#navPanel
 	{
-		background: #111111 url(images/main-wrapper-bg.jpg) repeat;
+		background: #323338;
 	}
 
 		#navPanel .link
@@ -132,8 +129,7 @@
 			text-decoration: none;
 			height: 44px;
 			line-height: 44px;
-			border-top: solid 1px;
-			border-color: rgba(255,255,255,.05);
+			border-top: solid 1px #3f4046;
 			padding: 0 1em 0 1em;
 		}
 		
@@ -158,98 +154,111 @@
 /* Header                                                                        */
 /*********************************************************************************/
 
-	#heder
+	#header
 	{
-		display: none;
+		padding: 8em 0em 4em 0em;
+		text-align: center;
+	}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+	{
+		margin-bottom: 3em;
 	}
 	
-		#header .container
+		#logo h1
 		{
-			padding: 0;
+			color: #FFF;
+		}
+	
+		#logo h1 a
+		{
+			display: block;
+			letter-spacing: 1px;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: 2em;
+			font-weight: 900;
+			color: #323338;
 		}
 
-    #logo
-    {
-        display: none;
-    }
-        .img-logo {
-            width: 100%;
-        }
-
-        #logo a > img {
-            width: 100%;
-            height: auto;
-        }
+		#logo span
+		{
+			display: block;
+			padding-top: 1em;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			font-size: 1em;
+			color: #8e8588;
+		}			
 	
 	#nav
 	{
 		display: none;
 	}
-
-/*********************************************************************************/
-/* Banner                                                                        */
-/*********************************************************************************/
-
-	#banner
-	{
-		padding: 4em 0em 3em 0em;
-	}
-
-	#banner header .byline
-	{
-		padding-top: 1em;
-		font-size: 1.2em;
-		font-weight: 500;
-	}
 	
-	#banner .fa:before
-	{
-		font-size: 3em;
-	}
-
 /*********************************************************************************/
 /* Main                                                                          */
 /*********************************************************************************/
 
 	#main
 	{
-		padding: 4em 0em;
+		padding: 4em 0em 1em 0em;
 	}
 
-		#main .left
-		{
-			text-align: center;
-		}
-		
-		#main .right
-		{
-			text-align: center;
-		}
-
-/*********************************************************************************/
-/* Extra                                                                         */
-/*********************************************************************************/
-
-	#extra
+	#content
 	{
-		padding: 4em 0em 3em 0em;
 	}
 	
+	#content header
+	{
+		margin-bottom: 2em;
+	}
+	
+	#content header h2
+	{
+		line-height: 1em;
+		font-size: 1.8em;
+	}
+	
+	#content header .byline
+	{
+		line-height: 1.5em;
+		font-size: 1.20em;
+	}
+	
+	#sidebar h2
+	{
+		display: block;
+		padding-bottom: 1em;
+		font-size: 1.4em;
+	}
+	
+
 /*********************************************************************************/
 /* Featured                                                                      */
 /*********************************************************************************/
 	
 	#featured
 	{
-		padding: 4em 0em 3em 0em;
+		padding: 4em 0em 4em 0em;
 	}
-
+	
 /*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
 	
 	#footer
 	{
-		padding: 4em 0em 3em 0em;
+		padding: 4em 0em 2em 0em;
+	}
+	
+	#footer h2
+	{
+		padding-bottom: 2em;
+		font-size: 1.4em;
 	}
 	
