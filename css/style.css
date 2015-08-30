@@ -718,7 +718,7 @@ ul.style3 .first {
 	{
 		position: relative;
 		text-align: center;
-		height: 150%;
+		height: 200px;
 	}
 	
 	#copyright .container
@@ -727,8 +727,9 @@ ul.style3 .first {
 		border-top: 1px solid;
 		border-color: rgba(0,0,0,.1);
 		background-image: url("../images/banner.PNG");
-		background-size: 100% 100%;
+		background-size: 100% auto;
 		background-repeat: no-repeat;
+		height: inherit;
 	}
 	
 	#copyright a
