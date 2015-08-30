@@ -15,12 +15,13 @@
 	body {
 		margin: 0px;
 		padding: 0px;
-		background: #f3f2ed;
+		background: #001722;
 		font-family: 'Lucida Grande', sans-serif;
 		font-size: 12pt;
 		font-weight: 300;
 		color: #000;
 		text-align: justify;
+		line-height: 200%;
 	}
 
 	h1, h2, h3 {
@@ -31,7 +32,7 @@
 
 	p {
 		margin-bottom: 1.5em;
-		line-height: 180%;
+/*		line-height: 200%;*/
 	}
 
 	a {
@@ -717,6 +718,7 @@ ul.style3 .first {
 	{
 		position: relative;
 		text-align: center;
+		height: 150%;
 	}
 	
 	#copyright .container
@@ -724,6 +726,9 @@ ul.style3 .first {
 		padding: 3em 0em;
 		border-top: 1px solid;
 		border-color: rgba(0,0,0,.1);
+		background-image: url("../images/banner.png");
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
 	}
 	
 	#copyright a
@@ -741,4 +746,3 @@ ul.style3 .first {
 /*********************************************************************************/
 /* Outras                                                                       */
 /*********************************************************************************/
-
