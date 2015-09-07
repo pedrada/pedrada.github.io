@@ -76,6 +76,7 @@
 	#titleBar
 	{
 		background: none;
+		display: none;
 	}
 
 		#titleBar .title
