@@ -9,4 +9,5 @@ $('a[target="content"]').click(function(){
       $('#content').load($(this).attr('jshref'));
 	  document.title += "#"+this.href;
 	  console.info(this.target);
-})
+	  $('html, body').animate({ scrollTop: 0 }, 'slow');
+});
