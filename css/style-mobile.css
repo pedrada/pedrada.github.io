@@ -77,6 +77,10 @@
 		background-size: 100%;
 	}
 
+	#content header h2 {
+		text-align: center;
+	}
+
 	#titleBar
 	{
 		background: none;
