@@ -74,7 +74,7 @@
 /*********************************************************************************/
 
 	#header {
-		background-size: 100%;
+		background-size:  auto 150%;
 	}
 
 	#content header h2 {

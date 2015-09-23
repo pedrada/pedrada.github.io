@@ -15,7 +15,7 @@
 	body {
 		margin: 0px;
 		padding: 0px;
-		background: #001722;
+		background: #000;
 		font-family: 'Lucida Grande', sans-serif;
 		font-size: 12pt;
 		font-weight: 300;
@@ -718,7 +718,7 @@ ul.style3 .first {
 	{
 		position: relative;
 		text-align: center;
-		height: 200px;
+		height: 150px;
 	}
 	
 	#copyright .container
