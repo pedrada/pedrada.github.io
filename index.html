@@ -1,230 +1,3051 @@
-<!DOCTYPE HTML>
-<!--
-	Synchronous by TEMPLATED
-    templated.co @templatedco
-    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
+<!doctype html>
 <html>
-	<head>
-		<title>XIX Encontro Socine</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<link href='css/lato.css' rel='stylesheet' type='text/css'>
-		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
-		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-panels.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel-noscript.css" />
-			<link rel="stylesheet" href="css/style.css" />
-		</noscript>
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
-	</head>
-	<body class="homepage">
-		<div id="wrapper">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, maximum-scale=1">
+<title>Midialogia XV Corp.</title>
+<link rel="icon" href="favicon.png" type="image/png">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/linecons.css" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+<link href="css/responsive.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+
+<link href='https://fonts.googleapis.com/css?family=Lato:400,900,700,700italic,400italic,300italic,300,100italic,100,900italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Dosis:400,500,700,800,600,300,200' rel='stylesheet' type='text/css'>
+
+<!-- =======================================================
+    Theme Name: Butterfly
+    Theme URL: https://bootstrapmade.com/butterfly-free-bootstrap-theme/
+    Author: BootstrapMade
+    Author URL: https://bootstrapmade.com
+======================================================= -->
+
+<script type="text/javascript" src="js/jquery.1.8.3.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.js"></script>
+<script type="text/javascript" src="js/wow.js"></script>
+<script type="text/javascript" src="js/classie.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(e) {
+        $('.res-nav_click').click(function(){
+		$('ul.toggle').slideToggle(600)	
+			});	
 			
-			<!-- Header -->
-			<div id="header">
-				<div class="container"> 
-					
-					<!-- Logo -->
-					
-					
-					<!-- Nav -->
-					<nav id="nav" class="mobile-visibile">
-						<ul>
-							<li class="active"><a href="index.html">Apresentação</a></li>
-							<li class="active"><a href="subscribe.html" target="content">Inscrição dos Ouvintes</a></li>
-							<li class="active"><a href="http://www.socine.org.br/adm/sessao2015_grade.asp" target="_blank">Programação resumida</a></li>
-							<li class="active"><a href="files/caderno-resumos.pdf" target="_blank">Programação completa (Caderno de Resumos)</a></li>
-							<li class="active"><a href="files/livros.pdf" target="_blank">Lancamento de livros</a></li>
-							<li class="active"><a href="files/palestrantes-convidados.pdf" target="_blank">Palestrantes convidados</a></li>
-							<li class="active"><p>Mostras de filmes: <br>
-										      <a href="files/mostra-campinas.pdf" target="_blank">Cinema Campineiro em Debate</a> <br>
-											  <a href="files/mostra-rodowick.pdf" target="_blank">Mostra Rodowick</a>
-										</p></li>
-							<li class="active"><a href="comochegar.html" target="content">Como chegar</a></li>
-							<li class="active"><a href="files/hospedagem.pdf" target="_blank">Hospedagem</a></li>
-							<li class="active"><a href="contato.html" target="content">Contato</a></li>
-							<li class="active"><a href="ondecomer.html" target="content">Onde comer</a></li>
-						</ul>
-					</nav>
-					
-				</div>
-			</div>
-			<!-- /Header -->
+	$(document).ready(function() {
+$(window).bind('scroll', function() {
+         if ($(window).scrollTop() > 0) {
+             $('#header_outer').addClass('fixed');
+         }
+         else {
+             $('#header_outer').removeClass('fixed');
+         }
+    });
+	
+	  });
+	  
+
+		    });	
+function resizeText() {
+	var preferredWidth = 767;
+	var displayWidth = window.innerWidth;
+	var percentage = displayWidth / preferredWidth;
+	var fontsizetitle = 25;
+	var newFontSizeTitle = Math.floor(fontsizetitle * percentage);
+	$(".divclass").css("font-size", newFontSizeTitle)
+}
+</script>
+</head>
+<body>
+
+<!--Header_section-->
+<header id="header_outer">
+  <div class="container">
+    <div class="header_section">
+      <div class="logo"><a href="#top_content"><img src="img/logod.png" alt=""></a></div>
+      <nav class="nav" id="nav">
+        <ul class="toggle">
+          <li><a href="#top_content">Home</a></li>
+          <li><a href="#service">Projetos</a></li>
+          <li><a href="#Portfolio">Time</a></li>
+          <li><a href="#client_outer">Clientes</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+        <ul class="">
+          <li><a href="#top_content">Home</a></li>
+          <li><a href="#service">Projetos</a></li>
+          <li><a href="#Portfolio">Time</a></li>
+          <li><a href="#client_outer">Clientes</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+      <a class="res-nav_click animated wobble wow"  href="javascript:void(0)"><i class="fa-bars"></i></a> </div>
+  </div>
+</header>
+<!--Header_section--> 
+
+<!--Top_content-->
+<section id="top_content" class="top_cont_outer">
+  <div class="top_cont_inner">
+    <div class="container">
+      <div class="top_content">
+        <div class="row">
+          <div class="col-lg-5 col-sm-7">
+            <div class="top_left_cont flipInY wow animated">
+              <h3>Corporativo &amp; educacional!</h3>
+              <h2>criando solu&ccedil;&otilde;es tecnol&oacute;gicas para educa&ccedil;&atilde;o</h2>
+              <p> Depois do sucesso do <a href="http://www.iar.unicamp.br/disciplinas/cs106_2015/cinemidia/index.html" target="_blank">Cinemídia XV</a>, o grupo Midialogia XV expande suas atividades para o universo das tecnologias de aprendizagem </p>
+              <a href="#service" class="learn_more2">Saiba mais</a> </div>
+          </div>
+          <div class="col-lg-7 col-sm-5"> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Top_content--> 
+
+<!--Service-->
+<section  id="service">
+  <div class="container">
+    <h2>Projetos</h2>
+    <div class="service_area">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="service_block">
+            <div class="service_icon delay-03s animated wow  zoomIn"> <span><i class="fa-flash"></i></span> </div>
+            <h3 class="animated fadeInUp wow">Projeto 2</h3>
+            <p class="animated fadeInDown wow">Análise de situações formais, informais e não-formais de aprendizagem. Como ocorre a interação e a interatividade em diferentes contextos.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="service_block">
+            <div class="service_icon icon2  delay-03s animated wow zoomIn"> <span><i class="fa-comments"></i></span> </div>
+            <h3 class="animated fadeInUp wow">Projeto 3</h3>
+            <p class="animated fadeInDown wow">Visões sobre o uso de tecnologias para a educação e como ela pode se apropriar de inovações como a Realidade Aumentada, os Aplicativos Móveis, a Transmissão ao Vivo e a Internet.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="service_block">
+            <div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><i class="fa-shield"></i></span> </div>
+            <h3 class="animated fadeInUp wow">Projeto 4</h3>
+            <p class="animated fadeInDown wow">Protótipos de Tecnologias Educacionais, pensados sobre as bases conceituais da disciplina CS405-Educação e Tecnologia</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Service-->
+
+
+
+<!--new_portfolio--> 
+
+<!-- Portfolio -->
+<section id="Portfolio" class="content"> 
+  
+  <!-- Container -->
+  <div class="container portfolio-title"> 
+    
+    <!-- Section Title -->
+    <div class="section-title">
+      <h2>Nosso time</h2>
+    </div>
+    <!--/Section Title --> 
+    
+  </div>
+  <!-- Container -->
+  
+  <div class="portfolio-top"></div>
+  
+  <!-- Portfolio Plus Filters -->
+  <div class="portfolio"> 
+    
+    <!-- Portfolio Filters -->
+<!--
+    <div id="filters" class="sixteen columns">
+      <ul class="clearfix">
+        <li><a id="all" href="#" data-filter="*" class="active">
+          <h5>All</h5>
+          </a></li>
+        <li><a class="" href="#" data-filter=".branding">
+          <h5>Branding</h5>
+          </a></li>
+        <li><a class="" href="#" data-filter=".design">
+          <h5>Design</h5>
+          </a></li>
+        <li><a class="" href="#" data-filter=".photography">
+          <h5>Photography</h5>
+          </a></li>
+        <li><a class="" href="#" data-filter=".videography">
+          <h5>Videography</h5>
+          </a></li>
+        <li><a class="" href="#" data-filter=".web">
+          <h5>Web</h5>
+          </a></li>
+      </ul>
+    </div>
+-->
+    <!--/Portfolio Filters --> 
+    
+    <!-- Portfolio Wrap -->
+    <div class="isotope" style="position: relative; overflow: hidden; height: 480px;" id="portfolio-wrap"> 
+      
+      <!-- Portfolio Item With PrettyPhoto  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   videography isotope-item">
+        <div class="portfolio-image"> <img src="img/profile/antonio.png"  alt="Portfolio 1"> </div>
+        <a title="Starbucks Coffee" rel="prettyPhoto[galname]" href="#antonio">
+        <div class="project-overlay">
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Antônio Vianna</h4>
+            <p class="project-categories">164311</p>
+          </div>
+        </div>
+        </a> </div>
+      <!--/Portfolio Item With PrettyPhoto  --> 
+      
+      <!-- Portfolio Item Video Expander  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
+        <div class="portfolio-image"> <img src="img/profile/alexandre.png" alt="Portfolio 1"> </div>
+           <a class="open-project" href="#alexandre">
+        <div class="project-overlay">
+          <div class="open-project-link"> </div>
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Alexandre Parma</h4>
+            <p class="project-categories">163392</p>
+          </div>
+        </div>
+          </a>
+      </div>
+      <!--/Portfolio Item Video Expander  --> 
+        
+    <!-- Portfolio Item With PrettyPhoto  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   videography isotope-item">
+        <div class="portfolio-image"> <img src="img/profile/alessandra.png"  alt="Portfolio 1"> </div>
+        <a title="Starbucks Coffee" rel="prettyPhoto[galname]" href="#alessandra">
+        <div class="project-overlay">
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Alessandra Guedes</h4>
+            <p class="project-categories">163328</p>
+          </div>
+        </div>
+        </a> </div>
+      <!--/Portfolio Item With PrettyPhoto  --> 
+      
+      <!-- Portfolio Item Video Expander  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
+        <div class="portfolio-image"> <img src="img/profile/angelica.png" alt="Portfolio 1"> </div>
+          <a class="open-project" href="#angelica">
+        <div class="project-overlay">
+          <div class="open-project-link">  </div>
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Angélica Ghillardi</h4>
+            <p class="project-categories">164231</p>
+          </div>
+        </div>
+          </a>
+      </div>
+      <!--/Portfolio Item Video Expander  --> 
+        
+        <!-- Portfolio Item With PrettyPhoto  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   videography isotope-item">
+        <div class="portfolio-image"> <img src="img/profile/ariane.png"  alt="Portfolio 1"> </div>
+        <a title="Starbucks Coffee" rel="prettyPhoto[galname]" href="#ariane">
+        <div class="project-overlay">
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Ariane Almeida</h4>
+            <p class="project-categories">164329</p>
+          </div>
+        </div>
+        </a> </div>
+      <!--/Portfolio Item With PrettyPhoto  --> 
+      
+      <!-- Portfolio Item Video Expander  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   design isotope-item">
+        <div class="portfolio-image"> <img src="img/profile/y.png"  alt="Portfolio 1"> </div>
+        <a title="Starbucks Coffee" rel="prettyPhoto[galname]" href="#artemis">
+        <div class="project-overlay">
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Artemis Lyrae</h4>
+            <p class="project-categories">159613</p>
+          </div>
+        </div>
+        </a> </div>
+      <!--/Portfolio Item Video Expander  --> 
+        
+        <!-- Portfolio Item With PrettyPhoto  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   videography isotope-item">
+        <div class="portfolio-image"> <img src="img/profile/bruna.png"  alt="Portfolio 1"> </div>
+        <a title="Starbucks Coffee" rel="prettyPhoto[galname]" href="#bruna">
+        <div class="project-overlay">
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Bruna Fiamini</h4>
+            <p class="project-categories">165050</p>
+          </div>
+        </div>
+        </a> </div>
+      <!--/Portfolio Item With PrettyPhoto  --> 
+      
+      <!-- Portfolio Item Video Expander  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   design isotope-item">
+        <div class="portfolio-image"> <img src="img/profile/x.png"  alt="Portfolio 1"> </div>
+        <a title="Starbucks Coffee" rel="prettyPhoto[galname]" href="#deni">
+        <div class="project-overlay">
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Deni Lantzman</h4>
+            <p class="project-categories">000000</p>
+          </div>
+        </div>
+        </a> </div>
+      <!--/Portfolio Item Video Expander  --> 
+        
+    <!-- Portfolio Item Video Expander  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  videography isotope-item">
+        <div class="portfolio-image"> <img src="img/profile/flora.png" alt="Portfolio 1"> </div>
+        <a class="open-project" href="#flora">
+          <div class="project-overlay">
+          <div class="open-project-link">  </div>
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Flora Nakazone</h4>
+            <p class="project-categories">157886</p>
+          </div>
+        </div>
+        </a>
+      </div>
+      <!--/Portfolio Item Video Expander  --> 
+        
+        <!-- Portfolio Item Video Expander  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
+        <div class="portfolio-image"> <img src="img/profile/gabrielle.png" alt="Portfolio 1"> </div>
+        <div class="project-overlay">
+        <a class="open-project" href="#gabrielle">    
+          <div class="open-project-link">  </div>
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Gabrielle Domingues</h4>
+            <p class="project-categories">168457</p>
+          </div>
+        </div>
+        </a>
+      </div>
+      <!--/Portfolio Item Video Expander  --> 
+        
+        <!-- Portfolio Item Video Expander  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  videography isotope-item">
+        <div class="portfolio-image"> <img src="img/profile/x.png" alt="Portfolio 1"> </div>
+        <a class="open-project" href="#george">
+        <div class="project-overlay">
+          <div class="open-project-link">  </div>
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">George Marques</h4>
+            <p class="project-categories">135870</p>
+          </div>
+        </div>
+        </a>
+      </div>
+      <!--/Portfolio Item Video Expander  --> 
+        
+        <!-- Portfolio Item Video Expander  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
+        <div class="portfolio-image"> <img src="img/profile/x.png" alt="Portfolio 1"> </div>
+        <a class="open-project" href="#guilherme">
+        <div class="project-overlay">
+          <div class="open-project-link">  </div>
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Guilherme Palmieri</h4>
+            <p class="project-categories">102488</p>
+          </div>
+        </div>
+        </a>
+      </div>
+      <!--/Portfolio Item Video Expander  --> 
+        
+        <!-- Portfolio Item Video Expander  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  videography isotope-item">
+        <div class="portfolio-image"> <img src="img/profile/x.png" alt="Portfolio 1"> </div>
+        <div class="project-overlay">
+        <a class="open-project" href="#gustavo">
+          <div class="open-project-link">  </div>
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Gustavo de Andrade</h4>
+            <p class="project-categories">169311</p>
+          </div>
+        </div>
+        </a>
+      </div>
+      <!--/Portfolio Item Video Expander  --> 
+        
+        <!-- Portfolio Item Video Expander  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
+        <div class="portfolio-image"> <img src="img/profile/heloisa.png" alt="Portfolio 1"> </div>
+        <div class="project-overlay">
+          <div class="open-project-link"> <a class="open-project" href="#heloisa"></a> </div>
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Heloísa Ballaminut</h4>
+            <p class="project-categories">169552</p>
+          </div>
+        </div>
+      </div>
+      <!--/Portfolio Item Video Expander  --> 
+        
+        <!-- Portfolio Item Video Expander  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  videography isotope-item">
+        <div class="portfolio-image"> <img src="img/profile/x.png" alt="Portfolio 1"> </div>
+        <a class="open-project" href="#igor">
+        <div class="project-overlay">
+          <div class="open-project-link">  </div>
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Igor Costa</h4>
+            <p class="project-categories">136118</p>
+          </div>
+        </div>
+        </a>
+      </div>
+      <!--/Portfolio Item Video Expander  --> 
+        
+        <!-- Portfolio Item Video Expander  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
+        <div class="portfolio-image"> <img src="img/profile/izabella.png" alt="Portfolio 1"> </div>
+        <div class="project-overlay">
+          <div class="open-project-link"> <a class="open-project" href="#izabella"></a> </div>
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Izabella Socorro</h4>
+            <p class="project-categories">170237</p>
+          </div>
+        </div>
+      </div>
+      <!--/Portfolio Item Video Expander  --> 
+        
+        <!-- Portfolio Item Video Expander  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  videography isotope-item">
+        <div class="portfolio-image"> <img src="img/profile/juliamattos.png" alt="Portfolio 1"> </div>
+        <a class="open-project" href="#juliamattos">
+          <div class="project-overlay">
+          <div class="open-project-link">  </div>
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Júlia Mattos</h4>
+            <p class="project-categories">171088</p>
+          </div>
+        </div>
+        </a>
+      </div>
+      <!--/Portfolio Item Video Expander  --> 
+        
+        <!-- Portfolio Item Video Expander  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
+        <div class="portfolio-image"> <img src="img/profile/y.png" alt="Portfolio 1"> </div>
+        <a class="open-project" href="#juliabruno">
+        <div class="project-overlay">
+          <div class="open-project-link">  </div>
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Júlia Bruno</h4>
+            <p class="project-categories">171002</p>
+          </div>
+        </div>
+        </a>
+      </div>
+      <!--/Portfolio Item Video Expander  --> 
+        
+        <!-- Portfolio Item Video Expander  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  videography isotope-item">
+        <div class="portfolio-image"> <img src="img/profile/julianabonilha.png" alt="Portfolio 1"> </div>
+        <div class="project-overlay">
+          <div class="open-project-link"> <a class="open-project" href="#julianabonilha"></a> </div>
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Juliana Bonilha</h4>
+            <p class="project-categories">171200</p>
+          </div>
+        </div>
+      </div>
+      <!--/Portfolio Item Video Expander  --> 
+        
+        <!-- Portfolio Item Video Expander  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
+        <div class="portfolio-image"> <img src="img/profile/julianamazza.png" alt="Portfolio 1"> </div>
+        <a class="open-project" href="#julianamazza">
+          <div class="project-overlay">
+          <div class="open-project-link"> </div>
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Juliana Mazza</h4>
+            <p class="project-categories">171234</p>
+          </div>
+        </div>
+        </a>
+      </div>
+      <!--/Portfolio Item Video Expander  --> 
+        
+        <!-- Portfolio Item Video Expander  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  videography isotope-item">
+        <div class="portfolio-image"> <img src="img/profile/y.png" alt="Portfolio 1"> </div>
+        <a class="open-project" href="#larissa">
+        <div class="project-overlay">
+          <div class="open-project-link">  </div>
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Larissa Pacheco</h4>
+            <p class="project-categories">171689</p>
+          </div>
+        </div>
+        </a>
+      </div>
+      <!--/Portfolio Item Video Expander  --> 
+        
+        <!-- Portfolio Item Video Expander  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
+        <div class="portfolio-image"> <img src="img/profile/lucas.png" alt="Portfolio 1"> </div>
+        <a class="open-project" href="#lucas">
+        <div class="project-overlay">
+          <div class="open-project-link">  </div>
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Lucas Galego</h4>
+            <p class="project-categories">162618</p>
+          </div>
+        </div>
+        </a>
+      </div>
+      <!--/Portfolio Item Video Expander  --> 
+        
+        <!-- Portfolio Item Video Expander  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
+        <div class="portfolio-image"> <img src="img/profile/luis.png" alt="Portfolio 1"> </div>
+        <a class="open-project" href="#luis">
+          <div class="project-overlay">
+          <div class="open-project-link">  </div>
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Luis Sierra</h4>
+            <p class="project-categories">179075</p>
+          </div>
+        </div>
+        </a>
+      </div>
+      <!--/Portfolio Item Video Expander  --> 
+        
+        <!-- Portfolio Item Video Expander  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
+        <div class="portfolio-image"> <img src="img/profile/y.png" alt="Portfolio 1"> </div>
+        <a class="open-project" href="#luiza">
+        <div class="project-overlay">
+          <div class="open-project-link">  </div>
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Luiza Ladeira</h4>
+            <p class="project-categories">183103</p>
+          </div>
+        </div>
+        </a>
+      </div>
+      <!--/Portfolio Item Video Expander  --> 
+        
+        <!-- Portfolio Item Video Expander  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
+        <div class="portfolio-image"> <img src="img/profile/ligia.png" alt="Portfolio 1"> </div>
+        <a class="open-project" href="#ligia">
+        <div class="project-overlay">
+          <div class="open-project-link">  </div>
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Ligia Villaron</h4>
+            <p class="project-categories">172346</p>
+          </div>
+        </div>
+        </a>
+      </div>
+      <!--/Portfolio Item Video Expander  --> 
+        
+        <!-- Portfolio Item Video Expander  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
+        <div class="portfolio-image"> <img src="img/profile/y.png" alt="Portfolio 1"> </div>
+        <a class="open-project" href="#malu">
+        <div class="project-overlay">
+          <div class="open-project-link">  </div>
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Malu Azzoni</h4>
+            <p class="project-categories">156592</p>
+          </div>
+        </div>
+        </a>
+      </div>
+      <!--/Portfolio Item Video Expander  --> 
+        
+        <!-- Portfolio Item Video Expander  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  videography isotope-item">
+        <div class="portfolio-image"> <img src="img/profile/marina.png" alt="Portfolio 1"> </div>
+          <a class="open-project" href="#marina">
+        <div class="project-overlay">
+          <div class="open-project-link"> </div>
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Marina Kodato</h4>
+            <p class="project-categories">174216</p>
+          </div>
+        </div>
+          </a>
+      </div>
+      <!--/Portfolio Item Video Expander  --> 
+        
+        <!-- Portfolio Item Video Expander  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
+        <div class="portfolio-image"> <img src="img/profile/matheusbianchi.png" alt="Portfolio 1"> </div>
+          <a class="open-project" href="#matheusbianchi">
+        <div class="project-overlay">
+          <div class="open-project-link">  </div>
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Matheus Bianchi</h4>
+            <p class="project-categories">174613</p>
+          </div>
+        </div>
+          </a>
+      </div>
+      <!--/Portfolio Item Video Expander  --> 
+        
+        <!-- Portfolio Item Video Expander  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
+        <div class="portfolio-image"> <img src="img/profile/matheusferreira.png" alt="Portfolio 1"> </div>
+          <a class="open-project" href="#matheusferreira">
+        <div class="project-overlay">
+          <div class="open-project-link">  </div>
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Matheus Ferreira</h4>
+            <p class="project-categories">174474</p>
+          </div>
+        </div>
+          </a>
+      </div>
+      <!--/Portfolio Item Video Expander  --> 
+        
+        <!-- Portfolio Item Video Expander  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  videography isotope-item">
+        <div class="portfolio-image"> <img src="img/profile/y.png" alt="Portfolio 1"> </div>
+          <a class="open-project" href="#mayara">
+        <div class="project-overlay">
+          <div class="open-project-link">  </div>
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Mayara Domingues</h4>
+            <p class="project-categories">000000</p>
+          </div>
+        </div>
+        </a>
+      </div>
+      <!--/Portfolio Item Video Expander  --> 
+        
+        <!-- Portfolio Item Video Expander  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
+        <div class="portfolio-image"> <img src="img/profile/y.png" alt="Portfolio 1"> </div>
+          <a class="open-project" href="#mona">
+        <div class="project-overlay">
+          <div class="open-project-link">  </div>
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Mona Vicente</h4>
+            <p class="project-categories">174920</p>
+          </div>
+        </div>
+          </a>
+      </div>
+      <!--/Portfolio Item Video Expander  --> 
+        
+        <!-- Portfolio Item Video Expander  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  videography isotope-item">
+        <div class="portfolio-image"> <img src="img/profile/x.png" alt="Portfolio 1"> </div>
+          <a class="open-project" href="#raphael">
+        <div class="project-overlay">
+          <div class="open-project-link">  </div>
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Raphael Evangelista</h4>
+            <p class="project-categories">157102</p>
+          </div>
+        </div>
+          </a>
+      </div>
+      <!--/Portfolio Item Video Expander  --> 
+        
+        <!-- Portfolio Item Video Expander  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
+        <div class="portfolio-image"> <img src="img/profile/x.png" alt="Portfolio 1"> </div>
+        <a class="open-project" href="#rafael">
+          <div class="project-overlay">
+          <div class="open-project-link">  </div>
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Rafael Maldonado</h4>
+            <p class="project-categories">992351</p>
+          </div>
+        </div>
+          </a>
+          </div>
+      <!--/Portfolio Item Video Expander  --> 
+        
+      <!--/Portfolio Item Video Expander  -->  
+
+        <!-- Portfolio Item Video Expander  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
+        <div class="portfolio-image"> <img src="img/profile/y.png" alt="Portfolio 1"> </div>
+          <a class="open-project" href="#raquel">
+        <div class="project-overlay">
+          <div class="open-project-link">  </div>
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Quel Magalhães</h4>
+            <p class="project-categories">176447</p>
+          </div>
+        </div>
+          </a>
+      </div>
+      <!--/Portfolio Item Video Expander  --> 
+        
+        <!-- Portfolio Item Video Expander  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  videography isotope-item">
+        <div class="portfolio-image"> <img src="img/profile/renan.png" alt="Portfolio 1"> </div>
+          <a class="open-project" href="#renan">
+        <div class="project-overlay">
+          <div class="open-project-link">  </div>
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Renan Baldi</h4>
+            <p class="project-categories">176577</p>
+          </div>
+        </div>
+          </a>
+      </div>
+      <!--/Portfolio Item Video Expander  --> 
+        
+        <!-- Portfolio Item Video Expander  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
+        <div class="portfolio-image"> <img src="img/profile/sinuhe.png" alt="Portfolio 1"> </div>
+          <a class="open-project" href="#sinuhe">
+        <div class="project-overlay">
+          <div class="open-project-link">  </div>
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Sinuhe Preto</h4>
+            <p class="project-categories">177179</p>
+          </div>
+        </div>
+          </a>
+      </div>
+      <!--/Portfolio Item Video Expander  --> 
+      
+      <!-- Portfolio Item Normal Expander -->
+<!--
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  videography  isotope-item">
+        <div class="portfolio-image"> <img src="img/portfolio_pic3.jpg" alt="Portfolio 1"> </div>
+        <div class="project-overlay">
+          <div class="open-project-link"> <a class="open-project" href="http://clapat.ro/themes/newave/project-normal-expander-1.html" title="Open Project"></a> </div>
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Sony Phone</h4>
+            <p class="project-categories">Design</p>
+          </div>
+        </div>
+      </div>
+-->
+      <!--/Portfolio Item Normal Expander --> 
+      
+      <!-- Portfolio Item FullScreen Expander -->
+<!--
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  photography  branding web isotope-item">
+        <div class="portfolio-image"> <img src="img/portfolio_pic4.jpg" alt="Portfolio 1"> </div>
+        <div class="project-overlay">
+          <div class="open-project-link"> <a class="open-project" href="http://clapat.ro/themes/newave/project-fullscreen-expander-1.html" title="Open Project"></a> </div>
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Nike Shoes</h4>
+            <p class="project-categories">Photography, Web, Branding</p>
+          </div>
+        </div>
+      </div>
+-->
+      <!-- Portfolio Item FullScreen Expander --> 
+      
+      <!-- Portfolio Item FullScreen Expander -->
+<!--
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
+        <div class="portfolio-image"> <img src="img/portfolio_pic5.jpg" alt="Portfolio 1"> </div>
+        <div class="project-overlay">
+          <div class="open-project-link"> <a class="open-project" href="http://clapat.ro/themes/newave/project-fullscreen-expander-2.html" title="Open Project"></a> </div>
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Vinyl Record</h4>
+            <p class="project-categories">Design</p>
+          </div>
+        </div>
+      </div>
+-->
+      <!--/Portfolio Item FullScreen Expander --> 
+      
+      <!-- Portfolio Item Normal Expander -->
+<!--
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  web isotope-item">
+        <div class="portfolio-image"> <img src="img/portfolio_pic6.jpg" alt="Portfolio 1"> </div>
+        <div class="project-overlay">
+          <div class="open-project-link"> <a class="open-project" href="http://clapat.ro/themes/newave/project-normal-expander-2.html" title="Open Project"></a> </div>
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">iPhone</h4>
+            <p class="project-categories">Web</p>
+          </div>
+        </div>
+      </div>
+-->
+      <!--/Portfolio Item Normal Expander --> 
+      
+      <!-- Portfolio Item External Project  -->
+<!--
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design web isotope-item">
+        <div class="portfolio-image"> <img src="img/portfolio_pic7.jpg" alt="Portfolio 1"> </div>
+        <a href="http://clapat.ro/themes/newave/project-external-1.html" class="external">
+        <div class="project-overlay">
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Nexus Phone</h4>
+            <p class="project-categories">Design, Web</p>
+          </div>
+        </div>
+        </a> </div>
+-->
+      <!--/Portfolio Item External Project  --> 
+      
+      <!-- Portfolio Item With PrettyPhoto  -->
+<!--
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   photography isotope-item">
+        <div class="portfolio-image"> <img src="img/portfolio_pic8.jpg" alt="Portfolio 1"> </div>
+        <a title="Stereo Headphones" rel="prettyPhoto[galname]" href="http://clapat.ro/themes/newave/images/portfolio/portfolio8.jpg">
+        <div class="project-overlay">
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Art Frame</h4>
+            <p class="project-categories">Photography</p>
+          </div>
+        </div>
+        </a> </div>
+-->
+      <!--/Portfolio Item With PrettyPhoto  --> 
+        
+     <!-- Portfolio Item With PrettyPhoto  -->
+<!--
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   photography isotope-item">
+        <div class="portfolio-image"> <img src="img/portfolio_pic8.jpg" alt="Portfolio 1"> </div>
+        <a title="Stereo Headphones" rel="prettyPhoto[galname]" href="#service">
+        <div class="project-overlay">
+          <div class="project-info">
+            <div class="zoom-icon"></div>
+            <h4 class="project-name">Bonito demais</h4>
+            <p class="project-categories">Midialogia</p>
+          </div>
+        </div>
+        </a> </div>
+-->
+      <!--/Portfolio Item With PrettyPhoto  --> 
+      
+    </div>
+    <!--/Portfolio Wrap --> 
+    
+  </div>
+  <!--/Portfolio Plus Filters -->
+  
+  <div class="portfolio-bottom"></div>
+  
+  <!-- Project Page Holder-->
+  <div id="project-page-holder">
+    <div class="clear"></div>
+    <div id="project-page-data"></div>
+  </div>
+  <!--/Project Page Holder--> 
+  
+</section>
+<!--/Portfolio --> 
+
+<!--new_portfolio--> 
+
+<!--
+<section class="main-section paddind" id="Portfolio">
+	<div class="container">
+    	<h2>Portfolio</h2>
+    	<h6>Fresh portfolio of designs that will keep you wanting more.</h6>
+	</div>
+    
+    
+</section>   
+
+-->
+<!-- ANTONIO -->
+<section id="antonio"><!--main-section-start-->
+<div class="top_cont_latest">
+  <div class="container">
+    <h2>Antônio Vianna</h2>
+    <div class="work_section">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-doc"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 2</h3>
+              <p>Veja aqui o <a href="data/proj2/Artigo/antonio-helo.pdf" target="_blank">projeto</a> e o <a href="data/proj2/Diaporama/antonio-helo.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-comment"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 3</h3>
+                <p>Veja aqui o <a href="data/proj3/Projeto%203%20-%20Transmissao%20ao%20vivo%20-%20Antonio%20e%20Marina%20e%20Sinuhe.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-database"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 4</h3>
+                <p>Veja aqui o <a href="data/proj4/Artigos/Antonio_Sinuhe_Kodato_Projeto_4.pdf" target="_blank">projeto</a> e o <a href="data/proj4/Diaporamas/Antonio_Sinuhe_Kodato_Diaporama_4.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-cog"></i> </div>
+            <div class="service-list-col2">
+              <h3>Frase inspiradora</h3>
+              <p>O futuro da publicidade está nas mãos dos media men</p>
+            </div>
+          </div>
+          <div class="work_bottom invisible"> <span>Quer ver outros projetos?</span> <a href="#Portfolio" class="contact_btn">Menu Inicial</a> </div>
+        </div>
+          
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+            <img src="img/portrait/antonio.JPG"/ class="portrait">  
+        </div>
+          
+        <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"></figure>
+      </div>
+    </div>
+  </div>
+  <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+  </div>
+</section>    
+    
+    <section id="alexandre"><!--main-section-start-->
+<div class="top_cont_latest">
+  <div class="container">
+    <h2>Alexandre Lopes</h2>
+    <div class="work_section">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-doc"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 2</h3>
+              <p>Veja aqui o <a href="data/proj2/Artigo/alexandre-renan.pdf" target="_blank">projeto</a> e o <a href="data/proj2/Diaporama/alexandre-renan.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-comment"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 3</h3>
+                <p>Veja aqui o <a href="data/proj3/Projeto%203%20-%20ENEM%20-%20Alexandre%20e%20Luis.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-database"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 4</h3>
+                <p>Veja aqui o <a href="data/proj4/Artigos/Alexandre_Luis_Projeto_4.pdf" target="_blank">projeto</a> e o <a href="data/proj4/Diaporamas/Alexandre_Luis_Diaporama_4.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-cog"></i> </div>
+            <div class="service-list-col2">
+              <h3>Frase inspiradora</h3>
+              <p>O futuro dos negócios está nas mãos dos media men</p>
+            </div>
+          </div>
+          <div class="work_bottom invisible"> <span>Quer ver outros projetos?</span> <a href="#Portfolio" class="contact_btn">Menu Inicial</a> </div>
+        </div>
+          
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+            <img src="img/portrait/alexandre.JPG"/ class="portrait">  
+        </div>
+          
+        <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"></figure>
+      </div>
+    </div>
+  </div>
+  <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+  </div>
+</section>  
+    
+<section id="alessandra"><!--main-section-start-->
+<div class="top_cont_latest">
+  <div class="container">
+    <h2>Alessandra Guedes</h2>
+    <div class="work_section">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-doc"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 2</h3>
+              <p>Veja aqui o <a href="data/proj2/Artigo/alessandra-mona.pdf" target="_blank">projeto</a> e o <a href="data/proj2/Diaporama/alessandra-mona.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-comment"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 3</h3>
+                <p>Veja aqui o <a href="data/proj3/Projeto%203%20-%20Iris%20-%20Alessandra%20e%20Julia%20M%20e%20Raquel.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-database"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 4</h3>
+                <p>Veja aqui o <a href="data/proj4/Artigos/Alessandra_JuliaM_Quel_Projeto_4.pdf" target="_blank">projeto</a> e o <a href="data/proj4/Diaporamas/Alessandra_JuliaM_Quel_Diaporama_4.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-cog"></i> </div>
+            <div class="service-list-col2">
+              <h3>Frase inspiradora</h3>
+              <p>Nóis trupica mas não cai</p>
+            </div>
+          </div>
+          <div class="work_bottom invisible"> <span>Quer ver outros projetos?</span> <a href="#Portfolio" class="contact_btn">Menu Inicial</a> </div>
+        </div>
+          
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+            <img src="img/portrait/alessandra.JPG"/ class="portrait">  
+        </div>
+          
+        <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"></figure>
+      </div>
+    </div>
+  </div>
+  <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+  </div>
+</section>      
+    
+    
+    <section id="angelica"><!--main-section-start-->
+<div class="top_cont_latest">
+  <div class="container">
+    <h2>Angélica Ghillardi</h2>
+    <div class="work_section">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-doc"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 2</h3>
+              <p>Veja aqui o <a href="data/proj2/Artigo/angelica-rafael.pdf" target="_blank">projeto</a> e o <a href="data/proj2/Diaporama/angelica-rafael.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-comment"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 3</h3>
+                <p>Veja aqui o <a href="data/proj3/Projeto%203%20-%20Scratch%20-%20Angelica%20e%20Rafael.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-database"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 4</h3>
+                <p>Veja aqui o <a href="data/proj4/Artigos/.pdf" target="_blank">projeto</a> e o <a href="data/proj4/Diaporamas/.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-cog"></i> </div>
+            <div class="service-list-col2">
+              <h3>Frase inspiradora</h3>
+              <p>Não tenho ideia do que tô fazendo</p>
+            </div>
+          </div>
+          <div class="work_bottom invisible"> <span>Quer ver outros projetos?</span> <a href="#Portfolio" class="contact_btn">Menu Inicial</a> </div>
+        </div>
+          
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+            <img src="img/portrait/angelica.JPG"/ class="portrait">  
+        </div>
+          
+        <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"></figure>
+      </div>
+    </div>
+  </div>
+  <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+  </div>
+</section>  
+    
+    
+    <section id="ariane"><!--main-section-start-->
+<div class="top_cont_latest">
+  <div class="container">
+    <h2>Ariane Almeida</h2>
+    <div class="work_section">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-doc"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 2</h3>
+              <p>Veja aqui o <a href="data/proj2/Artigo/ariane-malu.pdf" target="_blank">projeto</a> e o <a href="data/proj2/Diaporama/ariane-malu.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-comment"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 3</h3>
+                <p>Veja aqui o <a href="data/proj3/Projeto%203%20-%20Cultura%20Inglesa%20-%20Ariane%20e%20Malu.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-database"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 4</h3>
+                <p>Veja aqui o <a href="" target="_blank">projeto</a> e o <a href="data/proj4/Diaporamas/.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-cog"></i> </div>
+            <div class="service-list-col2">
+              <h3>Frase inspiradora</h3>
+              <p>Lorem ipsum dolor sit amet</p>
+            </div>
+          </div>
+          <div class="work_bottom invisible"> <span>Quer ver outros projetos?</span> <a href="#Portfolio" class="contact_btn">Menu Inicial</a> </div>
+        </div>
+          
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+            <img src="img/portrait/ariane.JPG"/ class="portrait">  
+        </div>
+          
+        <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"></figure>
+      </div>
+    </div>
+  </div>
+  <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+  </div>
+</section>  
+    
+    
+<section id="artemis"><!--main-section-start-->
+<div class="top_cont_latest">
+  <div class="container">
+    <h2>Artemis Lyrae</h2>
+    <div class="work_section">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-doc"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 2</h3>
+              <p>Veja aqui o <a href="data/proj2/Artigo/artemis-raphael.pdf" target="_blank">projeto</a> e o <a href="data/proj2/Diaporama/artemis-raphael.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-comment"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 3</h3>
+                <p>Veja aqui o <a href="data/proj3/Projeto%203%20-%20Twitch%20-%20Artemis%20e%20Raphael%20e%20George.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-database"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 4</h3>
+                <p>Veja aqui o <a href="data/proj4/Artigos/Artemis_George_Raphael_Projeto_4.pdf" target="_blank">projeto</a> e o <a href="data/proj4/Diaporamas/Artemis_George_Raphael_Diaporama_4.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-cog"></i> </div>
+            <div class="service-list-col2">
+              <h3>Frase inspiradora</h3>
+              <p></p>
+            </div>
+          </div>
+          <div class="work_bottom invisible"> <span>Quer ver outros projetos?</span> <a href="#Portfolio" class="contact_btn">Menu Inicial</a> </div>
+        </div>
+          
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+            <img src="img/portrait/y.JPG"/ class="portrait">  
+        </div>
+          
+        <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"></figure>
+      </div>
+    </div>
+  </div>
+  <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+  </div>
+</section>
+    
+<section id="bruna"><!--main-section-start-->
+<div class="top_cont_latest">
+  <div class="container">
+    <h2>Bruna Fiamini</h2>
+    <div class="work_section">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-doc"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 2</h3>
+              <p>Veja aqui o <a href="data/proj2/Artigo/bruna-juliabruno.pdf" target="_blank">projeto</a> e o <a href="data/proj2/Diaporama/bruna-juliabruno.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-comment"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 3</h3>
+                <p>Veja aqui o <a href="data/proj3/Projeto%203%20-%20Desenhos%20infantis%20-%20Bruna%20e%20Julia%20B%20e%20Mona.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-database"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 4</h3>
+                <p>Veja aqui o <a href="data/proj4/Artigos/Bruna_JuliaB_Mona_Projeto_4.pdf" target="_blank">projeto</a> e o <a href="data/proj4/Diaporamas/Bruna_JuliaB_Mona_Diaporama_4.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-cog"></i> </div>
+            <div class="service-list-col2">
+              <h3>Frase inspiradora</h3>
+              <p>Serving piranha realness</p>
+            </div>
+          </div>
+          <div class="work_bottom invisible"> <span>Quer ver outros projetos?</span> <a href="#Portfolio" class="contact_btn">Menu Inicial</a> </div>
+        </div>
+          
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+            <img src="img/portrait/bruna.jpeg"/ class="portrait">  
+        </div>
+          
+        <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"></figure>
+      </div>
+    </div>
+  </div>
+  <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+  </div>
+</section>    
+    
+
+    <section id="deni"><!--main-section-start-->
+<div class="top_cont_latest">
+  <div class="container">
+    <h2>Deni Lantzman</h2>
+    <div class="work_section">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-doc"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 2</h3>
+              <p>Veja aqui o <a href="data/proj2/Artigo/deni-mayara.pdf" target="_blank">projeto</a> e o <a href="data/proj2/Diaporama/deni-mayara.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-comment"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 3</h3>
+                <p>Veja aqui o <a href="data/proj3/Projeto%203%20-%20Youtube%20-%20Deni%20e%20Igor%20e%20Mayara.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-database"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 4</h3>
+                <p>Veja aqui o <a href="data/proj4/Artigos/Deni_Igor_Mayara_Projeto_4.pdf" target="_blank">projeto</a> e o <a href="data/proj4/Diaporamas/Deni_Igor_Mayara_Diaporama_4.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-cog"></i> </div>
+            <div class="service-list-col2">
+              <h3>Frase inspiradora</h3>
+              <p></p>
+            </div>
+          </div>
+          <div class="work_bottom invisible"> <span>Quer ver outros projetos?</span> <a href="#Portfolio" class="contact_btn">Menu Inicial</a> </div>
+        </div>
+          
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+            <img src="img/portrait/x.jpg" class="portrait">  
+        </div>
+          
+        <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"></figure>
+      </div>
+    </div>
+  </div>
+  <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+  </div>
+</section>   
+    
+    
+    <section id="flora"><!--main-section-start-->
+<div class="top_cont_latest">
+  <div class="container">
+    <h2>Flora Nakazone</h2>
+    <div class="work_section">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-doc"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 2</h3>
+              <p>Veja aqui o <a href="data/proj2/Artigo/flora-luiza.pdf" target="_blank">projeto</a> e o <a href="data/proj2/Diaporama/flora-luiza.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-comment"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 3</h3>
+                <p>Veja aqui o <a href="data/proj3/Projeto%203%20-%20Blogs%20-%20Flora%20e%20Luiza.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-database"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 4</h3>
+                <p>Veja aqui o <a href="data/proj4/Artigos/Flora_Luiza_Projeto_4.pdf" target="_blank">projeto</a> e o <a href="data/proj4/Diaporamas/Flora_Luiza_Diaporama_4.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-cog"></i> </div>
+            <div class="service-list-col2">
+              <h3>Frase inspiradora</h3>
+              <p>n tenho frase</p>
+            </div>
+          </div>
+          <div class="work_bottom invisible"> <span>Quer ver outros projetos?</span> <a href="#Portfolio" class="contact_btn">Menu Inicial</a> </div>
+        </div>
+          
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+            <img src="img/portrait/flora.jpg" class="portrait">  
+        </div>
+          
+        <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"></figure>
+      </div>
+    </div>
+  </div>
+  <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+  </div>
+</section>   
+    
+    
+    <section id="gabrielle"><!--main-section-start-->
+<div class="top_cont_latest">
+  <div class="container">
+    <h2>Gabrielle Domingues</h2>
+    <div class="work_section">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-doc"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 2</h3>
+              <p>Veja aqui o <a href="data/proj2/Artigo/larissa-gabrielle.pdf" target="_blank">projeto</a> e o <a href="data/proj2/Diaporama/gabrielle-larissa.pptx" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-comment"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 3</h3>
+                <p>Veja aqui o <a href="data/proj3/Projeto%203%20-%20Castelo%20Ra%20Tim%20Bum%20-%20Gabrielle%20e%20Heloisa%20e%20Larissa.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-database"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 4</h3>
+                <p>Veja aqui o <a href="data/proj4/Artigos/Gabi_Helo_Lari_Projeto_4.pdf" target="_blank">projeto</a> e o <a href="data/proj4/Diaporamas/Gabi_Helo_Lari_Diaporama_4.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-cog"></i> </div>
+            <div class="service-list-col2">
+              <h3>Frase inspiradora</h3>
+              <p>É muito paranauê pra pouco ziriguidum.</p>
+            </div>
+          </div>
+          <div class="work_bottom invisible"> <span>Quer ver outros projetos?</span> <a href="#Portfolio" class="contact_btn">Menu Inicial</a> </div>
+        </div>
+          
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+            <img src="img/portrait/gabrielle.JPG"/ class="portrait">  
+        </div>
+          
+        <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"></figure>
+      </div>
+    </div>
+  </div>
+  <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+  </div>
+</section>
+    
+    <section id="george"><!--main-section-start-->
+<div class="top_cont_latest">
+  <div class="container">
+    <h2>George Marques</h2>
+    <div class="work_section">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-doc"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 2</h3>
+              <p>Veja aqui o <a href="data/proj2/Artigo/guilherme-george.pdf" target="_blank">projeto</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-comment"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 3</h3>
+                <p>Veja aqui o <a href="data/proj3/Projeto%203%20-%20Twitch%20-%20Artemis%20e%20Raphael%20e%20George.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-database"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 4</h3>
+                <p>Veja aqui o <a href="data/proj4/Artigos/Artemis_George_Raphael_Projeto_4.pdf" target="_blank">projeto</a> e o <a href="data/proj4/Diaporamas/Artemis_George_Raphael_Diaporama_4.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-cog"></i> </div>
+            <div class="service-list-col2">
+              <h3>Frase inspiradora</h3>
+              <p></p>
+            </div>
+          </div>
+          <div class="work_bottom invisible"> <span>Quer ver outros projetos?</span> <a href="#Portfolio" class="contact_btn">Menu Inicial</a> </div>
+        </div>
+          
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+            <img src="img/portrait/x.jpg" class="portrait">  
+        </div>
+          
+        <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"></figure>
+      </div>
+    </div>
+  </div>
+  <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+  </div>
+</section>  
+    
+    
+    <section id="guilherme"><!--main-section-start-->
+<div class="top_cont_latest">
+  <div class="container">
+    <h2>Guilherme Palmieri</h2>
+    <div class="work_section">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-doc"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 2</h3>
+              <p>Veja aqui o <a href="data/proj2/Artigo/guilherme-george.pdf" target="_blank">projeto</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-comment"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 3</h3>
+                <p>Veja aqui o <a href="data/proj3/Projeto%203%20-%20Univesp%20-%20Guilherme%20P..pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-database"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 4</h3>
+                <p>Veja aqui o <a href="data/proj4/Artigos/Palmieri_Projeto_4.pdf" target="_blank">projeto</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-cog"></i> </div>
+            <div class="service-list-col2">
+              <h3>Frase inspiradora</h3>
+              <p></p>
+            </div>
+          </div>
+          <div class="work_bottom invisible"> <span>Quer ver outros projetos?</span> <a href="#Portfolio" class="contact_btn">Menu Inicial</a> </div>
+        </div>
+          
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+            <img src="img/portrait/x.jpg" class="portrait">  
+        </div>
+          
+        <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"></figure>
+      </div>
+    </div>
+  </div>
+  <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+  </div>
+</section>  
+    
+    <section id="gustavo"><!--main-section-start-->
+<div class="top_cont_latest">
+  <div class="container">
+    <h2>Gustavo de Andrade</h2>
+    <div class="work_section">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-doc"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 2</h3>
+              <p>Veja aqui o <a href="data/proj2/Artigo/gustavo-igor.pdf" target="_blank">projeto</a> e o <a href="data/proj2/Diaporama/gustavo-igor.pptx" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-comment"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 3</h3>
+                <p>Veja aqui o <a href="data/proj3/Projeto%203%20-%20Realidade%20aumentada%20-%20Juliana%20M%20e%20Gustavo%20e%20Ligia.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-database"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 4</h3>
+                <p>Veja aqui o <a href="data/proj4/Artigos/Gustavo_JuMazza_Ligia_Projeto_4.pdf" target="_blank">projeto</a> e o <a href="data/proj4/Diaporamas/Gustavo_JuMazza_Ligia_Diaporama_4.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-cog"></i> </div>
+            <div class="service-list-col2">
+              <h3>Frase inspiradora</h3>
+              <p></p>
+            </div>
+          </div>
+          <div class="work_bottom invisible"> <span>Quer ver outros projetos?</span> <a href="#Portfolio" class="contact_btn">Menu Inicial</a> </div>
+        </div>
+          
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+            <img src="img/portrait/x.jpg" class="portrait">  
+        </div>
+          
+        <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"></figure>
+      </div>
+    </div>
+  </div>
+  <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+  </div>
+</section>
+    
+    <section id="heloisa"><!--main-section-start-->
+<div class="top_cont_latest">
+  <div class="container">
+    <h2>Heloísa Ballaminut</h2>
+    <div class="work_section">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-doc"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 2</h3>
+              <p>Veja aqui o <a href="data/proj2/Artigo/antonio-helo.pdf" target="_blank">projeto</a> e o <a href="data/proj2/Diaporama/antonio-helo.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-comment"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 3</h3>
+                <p>Veja aqui o <a href="data/proj3/Projeto%203%20-%20Castelo%20Ra%20Tim%20Bum%20-%20Gabrielle%20e%20Heloisa%20e%20Larissa.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-database"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 4</h3>
+                <p>Veja aqui o <a href="data/proj4/Artigos/Gabi_Helo_Lari_Projeto_4.pdf" target="_blank">projeto</a> e o <a href="data/proj4/Diaporamas/Gabi_Helo_Lari_Diaporama_4.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-cog"></i> </div>
+            <div class="service-list-col2">
+              <h3>Frase inspiradora</h3>
+              <p>Em caso de dúvidas, peça café.</p>
+            </div>
+          </div>
+          <div class="work_bottom invisible"> <span>Quer ver outros projetos?</span> <a href="#Portfolio" class="contact_btn">Menu Inicial</a> </div>
+        </div>
+          
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+            <img src="img/portrait/heloisa.JPG"/ class="portrait">  
+        </div>
+          
+        <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"></figure>
+      </div>
+    </div>
+  </div>
+  <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+  </div>
+</section>  
+    
+
+<section id="igor"><!--main-section-start-->
+<div class="top_cont_latest">
+  <div class="container">
+    <h2>Igor Costa</h2>
+    <div class="work_section">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-doc"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 2</h3>
+              <p>Veja aqui o <a href="data/proj2/Artigo/gustavo-igor.pdf" target="_blank">projeto</a> e o <a href="data/proj2/Diaporama/gustavo-igor.pptx" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-comment"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 3</h3>
+                <p>Veja aqui o <a href="data/proj3/Projeto%203%20-%20Youtube%20-%20Deni%20e%20Igor%20e%20Mayara.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-database"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 4</h3>
+                <p>Veja aqui o <a href="data/proj4/Artigos/Deni_Igor_Mayara_Projeto_4.pdf" target="_blank">projeto</a> e o <a href="data/proj4/Diaporamas/Deni_Igor_Mayara_Diaporama_4.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-cog"></i> </div>
+            <div class="service-list-col2">
+              <h3>Frase inspiradora</h3>
+              <p></p>
+            </div>
+          </div>
+          <div class="work_bottom invisible"> <span>Quer ver outros projetos?</span> <a href="#Portfolio" class="contact_btn">Menu Inicial</a> </div>
+        </div>
+          
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+            <img src="img/portrait/x.jpg" class="portrait">  
+        </div>
+          
+        <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"></figure>
+      </div>
+    </div>
+  </div>
+  <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+  </div>
+</section>    
+    
+    <section id="izabella"><!--main-section-start-->
+<div class="top_cont_latest">
+  <div class="container">
+    <h2>Izabella Socorro</h2>
+    <div class="work_section">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-doc"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 2</h3>
+              <p>Veja aqui o <a href="data/proj2/Artigo/bella-lucas.pdf" target="_blank">projeto</a> e o <a href="data/proj2/Diaporama/bella-lucas.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-comment"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 3</h3>
+                <p>Veja aqui o <a href="data/proj3/Projeto%203%20-%20Duolingo%20-%20Izabella%20e%20Lucas%20e%20Matheus%20B.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-database"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 4</h3>
+                <p>Veja aqui o <a href="data/proj4/Artigos/Bella_Lucas_Mineiro_Projeto_4.pdf" target="_blank">projeto</a> e o <a href="data/proj4/Diaporamas/Bella_Lucas_Mineiro_Diaporama_4.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-cog"></i> </div>
+            <div class="service-list-col2">
+              <h3>Frase inspiradora</h3>
+              <p></p>
+            </div>
+          </div>
+          <div class="work_bottom invisible"> <span>Quer ver outros projetos?</span> <a href="#Portfolio" class="contact_btn">Menu Inicial</a> </div>
+        </div>
+          
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+            <img src="img/portrait/izabella.JPG"/ class="portrait">  
+        </div>
+          
+        <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"></figure>
+      </div>
+    </div>
+  </div>
+  <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+  </div>
+</section>  
+    
+    <section id="juliamattos"><!--main-section-start-->
+<div class="top_cont_latest">
+  <div class="container">
+    <h2>Júlia Mattos</h2>
+    <div class="work_section">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-doc"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 2</h3>
+              <p>Veja aqui o <a href="data/proj2/Artigo/quel-jumattos.pdf" target="_blank">projeto</a> e o <a href="data/proj2/Diaporama/quel-jumattos.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-comment"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 3</h3>
+                <p>Veja aqui o <a href="data/proj3/Projeto%203%20-%20Iris%20-%20Alessandra%20e%20Julia%20M%20e%20Raquel.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-database"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 4</h3>
+                <p>Veja aqui o <a href="data/proj4/Artigos/Alessandra_JuliaM_Quel_Projeto_4.pdf" target="_blank">projeto</a> e o <a href="data/proj4/Diaporamas/Alessandra_JuliaM_Quel_Diaporama_4.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-cog"></i> </div>
+            <div class="service-list-col2">
+              <h3>Frase inspiradora</h3>
+              <p></p>
+            </div>
+          </div>
+          <div class="work_bottom invisible"> <span>Quer ver outros projetos?</span> <a href="#Portfolio" class="contact_btn">Menu Inicial</a> </div>
+        </div>
+          
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+            <img src="img/portrait/juliamattos.jpeg" class="portrait">  
+        </div>
+          
+        <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"></figure>
+      </div>
+    </div>
+  </div>
+  <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+  </div>
+</section> 
+    
+
+    <section id="juliabruno"><!--main-section-start-->
+<div class="top_cont_latest">
+  <div class="container">
+    <h2>Júlia Bruno</h2>
+    <div class="work_section">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-doc"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 2</h3>
+              <p>Veja aqui o <a href="data/proj2/Artigo/bruna-juliabruno.pdf" target="_blank">projeto</a> e o <a href="data/proj2/Diaporama/bruna-juliabruno.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-comment"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 3</h3>
+                <p>Veja aqui o <a href="data/proj3/Projeto%203%20-%20Desenhos%20infantis%20-%20Bruna%20e%20Julia%20B%20e%20Mona.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-database"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 4</h3>
+                <p>Veja aqui o <a href="data/proj4/Artigos/Bruna_JuliaB_Mona_Projeto_4.pdf" target="_blank">projeto</a> e o <a href="data/proj4/Diaporamas/Bruna_JuliaB_Mona_Diaporama_4.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-cog"></i> </div>
+            <div class="service-list-col2">
+              <h3>Frase inspiradora</h3>
+              <p></p>
+            </div>
+          </div>
+          <div class="work_bottom invisible"> <span>Quer ver outros projetos?</span> <a href="#Portfolio" class="contact_btn">Menu Inicial</a> </div>
+        </div>
+          
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+            <img src="img/portrait/y.jpg" class="portrait">  
+        </div>
+          
+        <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"></figure>
+      </div>
+    </div>
+  </div>
+  <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+  </div>
+</section>
+    
+    
+    <section id="julianabonilha"><!--main-section-start-->
+<div class="top_cont_latest">
+  <div class="container">
+    <h2>Juliana Bonilha</h2>
+    <div class="work_section">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-doc"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 2</h3>
+              <p>Veja aqui o <a href="data/proj2/Artigo/julianabonilha-matheusferreira.pdf" target="_blank">projeto</a> e o <a href="data/proj2/Diaporama/julianabonilha-matheusferreira.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-comment"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 3</h3>
+                <p>Veja aqui o <a href="data/proj3/Projeto%203%20-%20Podcasts%20-%20Juliana%20B%20e%20Matheus%20F%20e%20Renan.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-database"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 4</h3>
+                <p>Veja aqui o <a href="data/proj4/Artigos/JuBonilha_Dino_Renan_Projeto_4.pdf" target="_blank">projeto</a> e o <a href="data/proj4/Diaporamas/JuBonilha_Dino_Renan_Diaporama_4.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-cog"></i> </div>
+            <div class="service-list-col2">
+              <h3>Frase inspiradora</h3>
+              <p>Resolvendo um BO novo a cada dia.</p>
+            </div>
+          </div>
+          <div class="work_bottom invisible"> <span>Quer ver outros projetos?</span> <a href="#Portfolio" class="contact_btn">Menu Inicial</a> </div>
+        </div>
+          
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+            <img src="img/portrait/julianabonilha.JPG" class="portrait">  
+        </div>
+          
+        <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"></figure>
+      </div>
+    </div>
+  </div>
+  <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+  </div>
+</section>  
+    
+    
+    <section id="julianamazza"><!--main-section-start-->
+<div class="top_cont_latest">
+  <div class="container">
+    <h2>Juliana Mazza</h2>
+    <div class="work_section">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-doc"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 2</h3>
+              <p>Veja aqui o <a href="data/proj2/Artigo/ligia-julianamazza.pdf" target="_blank">projeto</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-comment"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 3</h3>
+                <p>Veja aqui o <a href="data/proj3/Projeto%203%20-%20Realidade%20aumentada%20-%20Juliana%20M%20e%20Gustavo%20e%20Ligia.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-database"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 4</h3>
+                <p>Veja aqui o <a href="data/proj4/Artigos/Gustavo_JuMazza_Ligia_Projeto_4.pdf" target="_blank">projeto</a> e o <a href="data/proj4/Diaporamas/Gustavo_JuMazza_Ligia_Diaporama_4.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-cog"></i> </div>
+            <div class="service-list-col2">
+              <h3>Frase inspiradora</h3>
+              <p></p>
+            </div>
+          </div>
+          <div class="work_bottom invisible"> <span>Quer ver outros projetos?</span> <a href="#Portfolio" class="contact_btn">Menu Inicial</a> </div>
+        </div>
+          
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+            <img src="img/portrait/julianamazza.JPG"/ class="portrait">  
+        </div>
+          
+        <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"></figure>
+      </div>
+    </div>
+  </div>
+  <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+  </div>
+</section>  
+    
+   <section id="larissa"><!--main-section-start-->
+<div class="top_cont_latest">
+  <div class="container">
+    <h2>Larissa Pacheco</h2>
+    <div class="work_section">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-doc"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 2</h3>
+              <p>Veja aqui o <a href="data/proj2/Artigo/larissa-gabrielle.pdf" target="_blank">projeto</a> e o <a href="data/proj2/Diaporama/gabrielle-larissa.pptx" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-comment"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 3</h3>
+                <p>Veja aqui o <a href="data/proj3/Projeto%203%20-%20Castelo%20Ra%20Tim%20Bum%20-%20Gabrielle%20e%20Heloisa%20e%20Larissa.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-database"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 4</h3>
+                <p>Veja aqui o <a href="data/proj4/Artigos/Gabi_Helo_Lari_Projeto_4.pdf" target="_blank">projeto</a> e o <a href="data/proj4/Diaporamas/Gabi_Helo_Lari_Diaporama_4.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-cog"></i> </div>
+            <div class="service-list-col2">
+              <h3>Frase inspiradora</h3>
+              <p></p>
+            </div>
+          </div>
+          <div class="work_bottom invisible"> <span>Quer ver outros projetos?</span> <a href="#Portfolio" class="contact_btn">Menu Inicial</a> </div>
+        </div>
+          
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+            <img src="img/portrait/y.jpg" class="portrait">  
+        </div>
+          
+        <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"></figure>
+      </div>
+    </div>
+  </div>
+  <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+  </div>
+</section>      
+    
+    <section id="lucas"><!--main-section-start-->
+<div class="top_cont_latest">
+  <div class="container">
+    <h2>Lucas Galego</h2>
+    <div class="work_section">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-doc"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 2</h3>
+              <p>Veja aqui o <a href="data/proj2/Artigo/bella-lucas.pdf" target="_blank">projeto</a> e o <a href="data/proj2/Diaporama/bella-lucas.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-comment"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 3</h3>
+                <p>Veja aqui o <a href="data/proj3/Projeto%203%20-%20Duolingo%20-%20Izabella%20e%20Lucas%20e%20Matheus%20B.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-database"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 4</h3>
+                <p>Veja aqui o <a href="data/proj4/Artigos/Bella_Lucas_Mineiro_Projeto_4.pdf" target="_blank">projeto</a> e o <a href="data/proj4/Diaporamas/Bella_Lucas_Mineiro_Diaporama_4.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-cog"></i> </div>
+            <div class="service-list-col2">
+              <h3>Frase inspiradora</h3>
+              <p>Não seja top, seja topper!</p>
+            </div>
+          </div>
+          <div class="work_bottom invisible"> <span>Quer ver outros projetos?</span> <a href="#Portfolio" class="contact_btn">Menu Inicial</a> </div>
+        </div>
+          
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+            <img src="img/portrait/lucas.JPG"/ class="portrait">  
+        </div>
+          
+        <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"></figure>
+      </div>
+    </div>
+  </div>
+  <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+  </div>
+</section>  
+    
+
+    <section id="luis"><!--main-section-start-->
+<div class="top_cont_latest">
+  <div class="container">
+    <h2>Luis Sierra</h2>
+    <div class="work_section">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-doc"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 2</h3>
+              <p>Veja aqui o <a href="data/proj2/Artigo/luis-matheus.pdf" target="_blank">projeto</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-comment"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 3</h3>
+                <p>Veja aqui o <a href="data/proj3/Projeto%203%20-%20ENEM%20-%20Alexandre%20e%20Luis.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-database"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 4</h3>
+                <p>Veja aqui o <a href="data/proj4/Artigos/Alexandre_Luis_Projeto_4.pdf" target="_blank">projeto</a> e o <a href="data/proj4/Diaporamas/Alexandre_Luis_Diaporama_4.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-cog"></i> </div>
+            <div class="service-list-col2">
+              <h3>Frase inspiradora</h3>
+              <p></p>
+            </div>
+          </div>
+          <div class="work_bottom invisible"> <span>Quer ver outros projetos?</span> <a href="#Portfolio" class="contact_btn">Menu Inicial</a> </div>
+        </div>
+          
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+            <img src="img/portrait/luis.JPG"/ class="portrait">  
+        </div>
+          
+        <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"></figure>
+      </div>
+    </div>
+  </div>
+  <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+  </div>
+</section>    
+    
+
+ <section id="luiza"><!--main-section-start-->
+<div class="top_cont_latest">
+  <div class="container">
+    <h2>Luiza Ladeira</h2>
+    <div class="work_section">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-doc"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 2</h3>
+              <p>Veja aqui o <a href="data/proj2/Artigo/flora-luiza.pdf" target="_blank">projeto</a> e o <a href="data/proj2/Diaporama/flora-luiza.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-comment"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 3</h3>
+                <p>Veja aqui o <a href="data/proj3/Projeto%203%20-%20Blogs%20-%20Flora%20e%20Luiza.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-database"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 4</h3>
+                <p>Veja aqui o <a href="data/proj4/Artigos/Flora_Luiza_Projeto_4.pdf" target="_blank">projeto</a> e o <a href="data/proj4/Diaporamas/Flora_Luiza_Diaporama_4.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-cog"></i> </div>
+            <div class="service-list-col2">
+              <h3>Frase inspiradora</h3>
+              <p></p>
+            </div>
+          </div>
+          <div class="work_bottom invisible"> <span>Quer ver outros projetos?</span> <a href="#Portfolio" class="contact_btn">Menu Inicial</a> </div>
+        </div>
+          
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+            <img src="img/portrait/y.jpg" class="portrait">  
+        </div>
+          
+        <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"></figure>
+      </div>
+    </div>
+  </div>
+  <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+  </div>
+</section>      
+    
+    
+ <section id="ligia"><!--main-section-start-->
+<div class="top_cont_latest">
+  <div class="container">
+    <h2>Lígia Villaron</h2>
+    <div class="work_section">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-doc"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 2</h3>
+              <p>Veja aqui o <a href="data/proj2/Artigo/ligia-julianamazza.pdf" target="_blank">projeto</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-comment"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 3</h3>
+                <p>Veja aqui o <a href="data/proj3/Projeto%203%20-%20Realidade%20aumentada%20-%20Juliana%20M%20e%20Gustavo%20e%20Ligia.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-database"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 4</h3>
+                <p>Veja aqui o <a href="data/proj4/Artigos/Gustavo_JuMazza_Ligia_Projeto_4.pdf" target="_blank">projeto</a> e o <a href="data/proj4/Diaporamas/Gustavo_JuMazza_Ligia_Diaporama_4.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-cog"></i> </div>
+            <div class="service-list-col2">
+              <h3>Frase inspiradora</h3>
+              <p></p>
+            </div>
+          </div>
+          <div class="work_bottom invisible"> <span>Quer ver outros projetos?</span> <a href="#Portfolio" class="contact_btn">Menu Inicial</a> </div>
+        </div>
+          
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+            <img src="img/portrait/ligia.JPG" class="portrait">  
+        </div>
+          
+        <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"></figure>
+      </div>
+    </div>
+  </div>
+  <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+  </div>
+</section> 
+    
+<section id="malu"><!--main-section-start-->
+<div class="top_cont_latest">
+  <div class="container">
+    <h2>Malu Azzoni</h2>
+    <div class="work_section">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-doc"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 2</h3>
+              <p>Veja aqui o <a href="data/proj2/Artigo/ariane-malu.pdf" target="_blank">projeto</a> e o <a href="data/proj2/Diaporama/ariane-malu.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-comment"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 3</h3>
+                <p>Veja aqui o <a href="data/proj3/Projeto%203%20-%20Cultura%20Inglesa%20-%20Ariane%20e%20Malu.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-database"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 4</h3>
+                <p>Veja aqui o <a href="data/proj4/Artigos/" target="_blank">projeto</a> e o <a href="data/proj4/Diaporamas/" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-cog"></i> </div>
+            <div class="service-list-col2">
+              <h3>Frase inspiradora</h3>
+              <p></p>
+            </div>
+          </div>
+          <div class="work_bottom invisible"> <span>Quer ver outros projetos?</span> <a href="#Portfolio" class="contact_btn">Menu Inicial</a> </div>
+        </div>
+          
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+            <img src="img/portrait/y.JPG" class="portrait">  
+        </div>
+          
+        <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"></figure>
+      </div>
+    </div>
+  </div>
+  <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+  </div>
+</section> 
+    
+<section id="marina"><!--main-section-start-->
+<div class="top_cont_latest">
+  <div class="container">
+    <h2>Marina Kodato</h2>
+    <div class="work_section">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-doc"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 2</h3>
+              <p>Veja aqui o <a href="data/proj2/Artigo/marina-sinuhe.pdf" target="_blank">projeto</a> e o <a href="data/proj2/Diaporama/marina-sinuhe.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-comment"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 3</h3>
+                <p>Veja aqui o <a href="data/proj3/Projeto%203%20-%20Transmissao%20ao%20vivo%20-%20Antonio%20e%20Marina%20e%20Sinuhe.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-database"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 4</h3>
+                <p>Veja aqui o <a href="data/proj4/Artigos/Antonio_Sinuhe_Kodato_Projeto_4.pdf" target="_blank">projeto</a> e o <a href="data/proj4/Diaporamas/Antonio_Sinuhe_Kodato_Diaporama_4.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-cog"></i> </div>
+            <div class="service-list-col2">
+              <h3>Frase inspiradora</h3>
+              <p>Tudo tem limite</p>
+            </div>
+          </div>
+          <div class="work_bottom invisible"> <span>Quer ver outros projetos?</span> <a href="#Portfolio" class="contact_btn">Menu Inicial</a> </div>
+        </div>
+          
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+            <img src="img/portrait/marina.JPG" class="portrait">  
+        </div>
+          
+        <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"></figure>
+      </div>
+    </div>
+  </div>
+  <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+  </div>
+</section>
+    
+<section id="matheusbianchi"><!--main-section-start-->
+<div class="top_cont_latest">
+  <div class="container">
+    <h2>Matheus Bianchi</h2>
+    <div class="work_section">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-doc"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 2</h3>
+              <p>Veja aqui o <a href="data/proj2/Artigo/luis-matheus.pdf" target="_blank">projeto</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-comment"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 3</h3>
+                <p>Veja aqui o <a href="data/proj3/Projeto%203%20-%20Duolingo%20-%20Izabella%20e%20Lucas%20e%20Matheus%20B.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-database"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 4</h3>
+                <p>Veja aqui o <a href="data/proj4/Artigos/Bella_Lucas_Mineiro_Projeto_4.pdf" target="_blank">projeto</a> e o <a href="data/proj4/Diaporamas/Bella_Lucas_Mineiro_Diaporama_4.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-cog"></i> </div>
+            <div class="service-list-col2">
+              <h3>Frase inspiradora</h3>
+              <p>Tortas linhas reto deus em escreve.</p>
+            </div>
+          </div>
+          <div class="work_bottom invisible"> <span>Quer ver outros projetos?</span> <a href="#Portfolio" class="contact_btn">Menu Inicial</a> </div>
+        </div>
+          
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+            <img src="img/portrait/matheusbianchi.JPG" class="portrait">  
+        </div>
+          
+        <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"></figure>
+      </div>
+    </div>
+  </div>
+  <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+  </div>
+</section> 
+    
+
+<section id="matheusferreira"><!--main-section-start-->
+<div class="top_cont_latest">
+  <div class="container">
+    <h2>Matheus Ferreira</h2>
+    <div class="work_section">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-doc"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 2</h3>
+              <p>Veja aqui o <a href="data/proj2/Artigo/julianabonilha-matheusferreira.pdf" target="_blank">projeto</a> e o <a href="data/proj2/Diaporama/julianabonilha-matheusferreira.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-comment"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 3</h3>
+                <p>Veja aqui o <a href="data/proj3/Projeto%203%20-%20Podcasts%20-%20Juliana%20B%20e%20Matheus%20F%20e%20Renan.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-database"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 4</h3>
+                <p>Veja aqui o <a href="data/proj4/Artigos/JuBonilha_Dino_Renan_Projeto_4.pdf" target="_blank">projeto</a> e o <a href="data/proj4/Diaporamas/JuBonilha_Dino_Renan_Diaporama_4.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-cog"></i> </div>
+            <div class="service-list-col2">
+              <h3>Frase inspiradora</h3>
+              <p>Não existe almoço grátis.</p>
+            </div>
+          </div>
+          <div class="work_bottom invisible"> <span>Quer ver outros projetos?</span> <a href="#Portfolio" class="contact_btn">Menu Inicial</a> </div>
+        </div>
+          
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+            <img src="img/portrait/matheusferreira.JPG" class="portrait">  
+        </div>
+          
+        <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"></figure>
+      </div>
+    </div>
+  </div>
+  <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+  </div>
+</section>
+    
+<section id="mayara"><!--main-section-start-->
+<div class="top_cont_latest">
+  <div class="container">
+    <h2>Mayara Domingues</h2>
+    <div class="work_section">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-doc"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 2</h3>
+              <p>Veja aqui o <a href="data/proj2/Artigo/deni-mayara.pdf" target="_blank">projeto</a> e o <a href="data/proj2/Diaporama/deni-mayara.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-comment"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 3</h3>
+                <p>Veja aqui o <a href="data/proj3/Projeto%203%20-%20Youtube%20-%20Deni%20e%20Igor%20e%20Mayara.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-database"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 4</h3>
+                <p>Veja aqui o <a href="data/proj4/Artigos/Deni_Igor_Mayara_Projeto_4.pdf" target="_blank">projeto</a> e o <a href="data/proj4/Diaporamas/Deni_Igor_Mayara_Diaporama_4.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-cog"></i> </div>
+            <div class="service-list-col2">
+              <h3>Frase inspiradora</h3>
+              <p></p>
+            </div>
+          </div>
+          <div class="work_bottom invisible"> <span>Quer ver outros projetos?</span> <a href="#Portfolio" class="contact_btn">Menu Inicial</a> </div>
+        </div>
+          
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+            <img src="img/portrait/y.JPG" class="portrait">  
+        </div>
+          
+        <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"></figure>
+      </div>
+    </div>
+  </div>
+  <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+  </div>
+</section>
+    
+<section id="mona"><!--main-section-start-->
+<div class="top_cont_latest">
+  <div class="container">
+    <h2>Mona Vicente</h2>
+    <div class="work_section">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-doc"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 2</h3>
+              <p>Veja aqui o <a href="data/proj2/Artigo/" target="_blank">projeto</a> e o <a href="data/proj2/Diaporama/" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-comment"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 3</h3>
+                <p>Veja aqui o <a href="data/proj3/Projeto%203%20-%20Desenhos%20infantis%20-%20Bruna%20e%20Julia%20B%20e%20Mona.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-database"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 4</h3>
+                <p>Veja aqui o <a href="data/proj4/Artigos/Bruna_JuliaB_Mona_Projeto_4.pdf" target="_blank">projeto</a> e o <a href="data/proj4/Diaporamas/Bruna_JuliaB_Mona_Diaporama_4.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-cog"></i> </div>
+            <div class="service-list-col2">
+              <h3>Frase inspiradora</h3>
+              <p></p>
+            </div>
+          </div>
+          <div class="work_bottom invisible"> <span>Quer ver outros projetos?</span> <a href="#Portfolio" class="contact_btn">Menu Inicial</a> </div>
+        </div>
+          
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+            <img src="img/portrait/y.JPG" class="portrait">  
+        </div>
+          
+        <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"></figure>
+      </div>
+    </div>
+  </div>
+  <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+  </div>
+</section> 
+    
+<section id="raphael"><!--main-section-start-->
+<div class="top_cont_latest">
+  <div class="container">
+    <h2>Raphael Evangelista</h2>
+    <div class="work_section">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-doc"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 2</h3>
+              <p>Veja aqui o <a href="data/proj2/Artigo/artemis-raphael.pdf" target="_blank">projeto</a> e o <a href="data/proj2/Diaporama/artemis-raphael.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-comment"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 3</h3>
+                <p>Veja aqui o <a href="data/proj3/Projeto%203%20-%20Twitch%20-%20Artemis%20e%20Raphael%20e%20George.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-database"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 4</h3>
+                <p>Veja aqui o <a href="data/proj4/Artigos/Artemis_George_Raphael_Projeto_4.pdf" target="_blank">projeto</a> e o <a href="data/proj4/Diaporamas/Artemis_George_Raphael_Diaporama_4.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-cog"></i> </div>
+            <div class="service-list-col2">
+              <h3>Frase inspiradora</h3>
+              <p></p>
+            </div>
+          </div>
+          <div class="work_bottom invisible"> <span>Quer ver outros projetos?</span> <a href="#Portfolio" class="contact_btn">Menu Inicial</a> </div>
+        </div>
+          
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+            <img src="img/portrait/x.JPG" class="portrait">  
+        </div>
+          
+        <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"></figure>
+      </div>
+    </div>
+  </div>
+  <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+  </div>
+</section>
+    
+<section id="rafael"><!--main-section-start-->
+<div class="top_cont_latest">
+  <div class="container">
+    <h2>Rafael Maldonado</h2>
+    <div class="work_section">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-doc"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 2</h3>
+              <p>Veja aqui o <a href="data/proj2/Artigo/angelica-rafael.pdf" target="_blank">projeto</a> e o <a href="data/proj2/Diaporama/angelica-rafael.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-comment"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 3</h3>
+                <p>Veja aqui o <a href="data/proj3/Projeto%203%20-%20Scratch%20-%20Angelica%20e%20Rafael.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-database"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 4</h3>
+                <p>Veja aqui o <a href="data/proj4/Artigos/Ang%C3%A9lica-e-Rafael-Maldonado-Projeto-4.pdf" target="_blank">projeto</a> e o <a href="data/proj4/Diaporamas/Ang%C3%A9lica-e-Rafael-Maldonado-DIAPORAMA-projeto-4.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-cog"></i> </div>
+            <div class="service-list-col2">
+              <h3>Frase inspiradora</h3>
+              <p></p>
+            </div>
+          </div>
+          <div class="work_bottom invisible"> <span>Quer ver outros projetos?</span> <a href="#Portfolio" class="contact_btn">Menu Inicial</a> </div>
+        </div>
+          
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+            <img src="img/portrait/x.JPG" class="portrait">  
+        </div>
+          
+        <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"></figure>
+      </div>
+    </div>
+  </div>
+  <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+  </div>
+</section>
+    
+    
+<section id="raquel"><!--main-section-start-->
+<div class="top_cont_latest">
+  <div class="container">
+    <h2>Quel Magalhães</h2>
+    <div class="work_section">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-doc"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 2</h3>
+              <p>Veja aqui o <a href="data/proj2/Artigo/quel-jumattos.pdf" target="_blank">projeto</a> e o <a href="data/proj2/Diaporama/quel-jumattos.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-comment"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 3</h3>
+                <p>Veja aqui o <a href="data/proj3/Projeto%203%20-%20Iris%20-%20Alessandra%20e%20Julia%20M%20e%20Raquel.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-database"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 4</h3>
+                <p>Veja aqui o <a href="data/proj4/Artigos/Alessandra_JuliaM_Quel_Projeto_4.pdf" target="_blank">projeto</a> e o <a href="data/proj4/Diaporamas/Alessandra_JuliaM_Quel_Diaporama_4.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-cog"></i> </div>
+            <div class="service-list-col2">
+              <h3>Frase inspiradora</h3>
+              <p></p>
+            </div>
+          </div>
+          <div class="work_bottom invisible"> <span>Quer ver outros projetos?</span> <a href="#Portfolio" class="contact_btn">Menu Inicial</a> </div>
+        </div>
+          
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+            <img src="img/portrait/y.jpg" class="portrait">  
+        </div>
+          
+        <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"></figure>
+      </div>
+    </div>
+  </div>
+  <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+  </div>
+</section>
+    
+<section id="renan"><!--main-section-start-->
+<div class="top_cont_latest">
+  <div class="container">
+    <h2>Renan Baldi</h2>
+    <div class="work_section">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-doc"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 2</h3>
+              <p>Veja aqui o <a href="data/proj2/Artigo/alexandre-renan.pdf" target="_blank">projeto</a> e o <a href="data/proj2/Diaporama/alexandre-renan.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-comment"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 3</h3>
+                <p>Veja aqui o <a href="data/proj3/Projeto%203%20-%20Podcasts%20-%20Juliana%20B%20e%20Matheus%20F%20e%20Renan.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-database"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 4</h3>
+                <p>Veja aqui o <a href="data/proj4/Artigos/JuBonilha_Dino_Renan_Projeto_4.pdf" target="_blank">projeto</a> e o <a href="data/proj4/Diaporamas/JuBonilha_Dino_Renan_Diaporama_4.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-cog"></i> </div>
+            <div class="service-list-col2">
+              <h3>Frase inspiradora</h3>
+              <p></p>
+            </div>
+          </div>
+          <div class="work_bottom invisible"> <span>Quer ver outros projetos?</span> <a href="#Portfolio" class="contact_btn">Menu Inicial</a> </div>
+        </div>
+          
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+            <img src="img/portrait/renan.JPG" class="portrait">  
+        </div>
+          
+        <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"></figure>
+      </div>
+    </div>
+  </div>
+  <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+  </div>
+</section>
+    
+<section id="sinuhe"><!--main-section-start-->
+<div class="top_cont_latest">
+  <div class="container">
+    <h2>Sinuhe Preto</h2>
+    <div class="work_section">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-doc"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 2</h3>
+              <p>Veja aqui o <a href="data/proj2/Artigo/marina-sinuhe.pdf" target="_blank">projeto</a> e o <a href="data/proj2/Diaporama/marina-sinuhe.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-comment"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 3</h3>
+                <p>Veja aqui o <a href="data/proj3/Projeto%203%20-%20Transmissao%20ao%20vivo%20-%20Antonio%20e%20Marina%20e%20Sinuhe.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-database"></i> </div>
+            <div class="service-list-col2">
+              <h3>Projeto 4</h3>
+                <p>Veja aqui o <a href="data/proj4/Artigos/Antonio_Sinuhe_Kodato_Projeto_4.pdf" target="_blank">projeto</a> e o <a href="data/proj4/Diaporamas/Antonio_Sinuhe_Kodato_Diaporama_4.pdf" target="_blank">diaporama</a></p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1"> <i class="icon-cog"></i> </div>
+            <div class="service-list-col2">
+              <h3>Frase inspiradora</h3>
+              <p>Simulando entre as reuniões de café da tarde e os pagamentos do xerox do andar de cima.</p>
+            </div>
+          </div>
+          <div class="work_bottom invisible"> <span>Quer ver outros projetos?</span> <a href="#Portfolio" class="contact_btn">Menu Inicial</a> </div>
+        </div>
+          
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+            <img src="img/portrait/sinuhe.JPG" class="portrait">  
+        </div>
+          
+        <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"></figure>
+      </div>
+    </div>
+  </div>
+  <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+  </div>
+</section> 
+
+  
+    
+    
+<section class="main-section" id="client_outer"><!--main-section client-part-start-->
+  <h2>Clientes Satisfeitos</h2>
+  <div class="client_area ">
+    <div class="client_section animated  fadeInUp wow">
+      <div class="client_profile">
+        <div class="client_profile_pic"><img src="img/valente2.png" alt=""></div>
+        <h3>José Armando Valente</h3>
+        <span>Unicamp</span> </div>
+      <div class="quote_section">
+        <div class="quote_arrow"></div>
+        <p><b><img src="img/quote_sign_left.png" alt=""></b> Gostei muito. A turma era bastante integrada e fez menos geléia do que da última vez. Mas sempre há alguma coisa para depurar. <small><img src="img/quote_sign_right.png" alt=""></small> </p>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div class="client_section animated  fadeInDown wow">
+      <div class="client_profile flt">
+        <div class="client_profile_pic"><img src="img/client-pic2.jpg" alt=""></div>
+        <h3>Marie Schrader</h3>
+        <span>Departamentos de Artes Cênicas</span> </div>
+      <div class="quote_section flt">
+        <div class="quote_arrow2"></div>
+        <p><b><img src="img/quote_sign_left.png" alt=""></b> Não gosto muito. É a sala mais corporativista que já vi na Unicamp! <small><img src="img/quote_sign_right.png" alt=""></small> </p>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</section>
+<!--main-section client-part-end-->
+
+<!--
+<div class="c-logo-part">c-logo-part-start
+  <div class="container">
+    <ul class="delay-06s animated  bounce wow">
+      <li><a href="javascript:void(0)"><img src="img/unicamp-logo.png" alt=""></a></li>
+      <li><a href="javascript:void(0)"><img src="img/ia-logo.png" alt=""></a></li>
+      <li><a href="javascript:void(0)"><img src="img/dmm-logo.png" alt=""></a></li>
+      <li><a href="javascript:void(0)"><img src="img/c-liogo5.png" alt=""></a></li>
+    </ul>
+  </div>
+</div>
+-->
+<!--c-logo-part-end-->
+<!--
+<section class="main-section team" id="team">main-section team-start
+  <div class="container">
+    <h2>Amazing Team</h2>
+    <h6>Take a closer look into our amazing team. We won’t bite.</h6>
+    <div class="team-leader-block clearfix">
+      <div class="team-leader-box">
+        <div class="team-leader wow fadeInDown delay-03s">
+          <div class="team-leader-shadow"><a href="javascript:void(0)"></a></div>
+          <img src="img/team-leader-pic1.jpg" alt="">
+          <ul>
+            <li><a href="javascript:void(0)" class="fa-twitter"></a></li>
+            <li><a href="javascript:void(0)" class="fa-facebook"></a></li>
+            <li><a href="javascript:void(0)" class="fa-pinterest"></a></li>
+            <li><a href="javascript:void(0)" class="fa-google-plus"></a></li>
+          </ul>
+        </div>
+        <h3 class="wow fadeInDown delay-03s">Walter White</h3>
+        <span class="wow fadeInDown delay-03s">Chief Executive Officer</span>
+        <p class="wow fadeInDown delay-03s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin cursus. Dolor sit amet, consectetur adipiscing elit proin consequat.</p>
+      </div>
+      <div class="team-leader-box">
+        <div class="team-leader  wow fadeInDown delay-06s">
+          <div class="team-leader-shadow"><a href="javascript:void(0)"></a></div>
+          <img src="img/team-leader-pic2.jpg" alt="">
+          <ul>
+            <li><a href="javascript:void(0)" class="fa-twitter"></a></li>
+            <li><a href="javascript:void(0)" class="fa-facebook"></a></li>
+            <li><a href="javascript:void(0)" class="fa-pinterest"></a></li>
+            <li><a href="javascript:void(0)" class="fa-google-plus"></a></li>
+          </ul>
+        </div>
+        <h3 class="wow fadeInDown delay-06s">Jesse Pinkman</h3>
+        <span class="wow fadeInDown delay-06s">Product Manager</span>
+        <p class="wow fadeInDown delay-06s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin cursus. Dolor sit amet, consectetur adipiscing elit proin consequat.</p>
+      </div>
+      <div class="team-leader-box">
+        <div class="team-leader wow fadeInDown delay-09s">
+          <div class="team-leader-shadow"><a href="javascript:void(0)"></a></div>
+          <img src="img/team-leader-pic3.jpg" alt="">
+          <ul>
+            <li><a href="javascript:void(0)" class="fa-twitter"></a></li>
+            <li><a href="javascript:void(0)" class="fa-facebook"></a></li>
+            <li><a href="javascript:void(0)" class="fa-pinterest"></a></li>
+            <li><a href="javascript:void(0)" class="fa-google-plus"></a></li>
+          </ul>
+        </div>
+        <h3 class="wow fadeInDown delay-09s">Skyler white</h3>
+        <span class="wow fadeInDown delay-09s">Accountant</span>
+        <p class="wow fadeInDown delay-09s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin cursus. Dolor sit amet, consectetur adipiscing elit proin consequat.</p>
+      </div>
+    </div>
+  </div>
+</section>
+-->
+<!--main-section team-end-->
+
+<section class="twitter-feed"><!--twitter-feed-->
+  <div class="container  animated fadeInDown delay-07s wow">
+    <div class="twitter_bird"><span><i class="fa-twitter"></i></span></div>
+    <p> Pistolou, hein camarada? Quando chegar em casa, lerei tudo.</p>
+    <span>22/10/2016</span> </div>
+</section>
+<!--twitter-feed-end-->
+<footer class="footer_section" id="contact">
+<!--
+  <div class="container">
+    <section class="main-section contact" id="contact">
+      <div class="contact_section">
+        <h2>Sobre</h2>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="contact_block">
+              <div class="contact_block_icon rollIn animated wow"><span><i class="fa-home"></i></span></div>
+              <span> 308 Negra Arroyo Lane, <br>
+              Albuquerque, NM, 87104 </span> </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="contact_block">
+              <div class="contact_block_icon icon2 rollIn animated wow"><span><i class="fa-phone"></i></span></div>
+              <span> 1-800-BOO-YAHH </span> </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="contact_block">
+              <div class="contact_block_icon icon3 rollIn animated wow"><span><i class="fa-pencil"></i></span></div>
+              <span> <a href="mailto:hello@butterfly.com"> hello@butterfly.com</a> </span> </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 wow fadeInLeft">
+          <div class="contact-info-box address clearfix">
+            <h3>Don’t be shy. Say hello!</h3>
+            <p>Accusantium quam, aliquam ultricies eget tempor id, aliquam eget nibh et. Maecen aliquam, risus at semper. Accusantium quam, aliquam ultricies eget tempor id, aliquam eget nibh et. Maecen aliquam, risus at semper.</p>
+            <p>Accusantium quam, aliquam ultricies eget tempor id, aliquam eget nibh et. Maecen aliquampor id.</p>
+          </div>
+          <ul class="social-link">
+            <li class="twitter animated bounceIn wow delay-02s"><a href="javascript:void(0)"><i class="fa-twitter"></i></a></li>
+            <li class="facebook animated bounceIn wow delay-03s"><a href="javascript:void(0)"><i class="fa-facebook"></i></a></li>
+            <li class="pinterest animated bounceIn wow delay-04s"><a href="javascript:void(0)"><i class="fa-pinterest"></i></a></li>
+            <li class="gplus animated bounceIn wow delay-05s"><a href="javascript:void(0)"><i class="fa-google-plus"></i></a></li>
+            <li class="dribbble animated bounceIn wow delay-06s"><a href="javascript:void(0)"><i class="fa-dribbble"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-lg-6 wow fadeInUp delay-06s">
+          <div class="form">
+                <div id="sendmessage">Your message has been sent. Thank you!</div>
+                <div id="errormessage"></div>
+                <form action="" method="post" role="form" class="contactForm">
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-control input-text" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                        <div class="validation"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control input-text" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                        <div class="validation"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control input-text" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                        <div class="validation"></div>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                        <div class="validation"></div>
+                    </div>
+                  
+                  <button type="submit" class="btn input-btn">SEND MESSAGE</button>
+                </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+-->
+  <div class="container">
+    
+     
+<!--
+      
+        <span>Esse website foi desenvolvido como trabalho final da disciplina CS405 - Educação e Tecnoliga, oferecida no Instituto de Artes da Unicamp pelo docente Prof. Dr. José Armando Valente no 2o Semestre de 2016 para os alunos da graduação em Midialogia.</span>
+-->
+      <div class="footer_bottom">
+      
+      <hr>
+      
+      
+          <span>© Butterfly Theme</span> 
+        <div class="credits">
+            <!-- 
+                All the links in the footer should remain intact. 
+                You can delete the links only if you purchased the pro version.
+                Licensing information: https://bootstrapmade.com/license/
+                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Butterfly
+            -->
+            <a href="https://bootstrapmade.com/free-business-bootstrap-themes-website-templates/">Business Bootstrap Themes</a> by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+    </div>
+  </div>
+</footer>
+<script type="text/javascript">
+    $(document).ready(function(e) {
+        $('#header_outer').scrollToFixed();
+        $('.res-nav_click').click(function(){
+            $('.main-nav').slideToggle();
+            return false    
+            
+        });
+        
+    });
+</script> 
+<script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100
+      }
+    );
+    wow.init();
+    document.getElementById('').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'wow fadeInDown';
+	  section.className = 'wow shake';
+	  section.className = 'wow zoomIn';
+	  section.className = 'wow lightSpeedIn';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script> 
+<script type="text/javascript">
+	$(window).load(function(){
+		
+		$('a').bind('click',function(event){
+			var $anchor = $(this);
 			
-			<div id="page">
-				<div class="container">
-					<div class="row">
-						<div class="3u">
-							<section id="sidebar1">
-								<header>
-									<h2>Menu</h2>
-								</header>
-								<ul class="style3">
-									<li class="first">
-										<p><a href="index.html">Apresentação</a></p>
-									</li>
-									<li>
-										<p><a href="subscribe.html" target="content">Inscrição de Ouvintes</a></p>
-									</li>
-									<li>
-										<p><a href="http://www.socine.org.br/adm/sessao2015_grade.asp" target="_blank">Programação resumida</a></p>
-									</li>
-									<li>
-										<p><a href="files/caderno-resumos.pdf" target="_blank">Programação completa (Caderno de Resumos)</a></p>
-									</li>
-									<li>
-										<p><a href="files/livros.pdf" target="_blank">Lancamento de livros</a></p>
-									</li>
-									<li>
-										<p><a href="files/palestrantes-convidados.pdf" target="_blank">Palestrantes convidados</a></p>
-									</li>
-									<li>
-										<p>Mostras de filmes: <br>
-										      <a href="files/mostra-campinas.pdf" target="_blank">Cinema Campineiro em Debate</a> <br>
-											  <a href="files/mostra-rodowick.pdf" target="_blank">Mostra Rodowick</a>
-										</p>
-									</li>
-									<li>
-										<p><a href="comochegar.html" target="content">Como chegar</a></p>
-									</li>
-									<li>
-<!--										<p class="date"><a href="#">Sep <b>27</b></a> </p>-->
-										<p><a href="files/hospedagem.pdf" target="_blank">Hospedagem</a></p>
-									</li>
-									<li>
-										<p><a href="ondecomer.html" target="content">Onde comer</a></p>
-									</li>
-									<li>
-										<p><a href="streaming.html" target="content">Transmissão via Streaming</a></p>
-									</li>
-									<li>
-										<p><a href="contato.html" target="content">Contato</a></p>
-									</li>
-								</ul>
-							</section>
-						</div>
-						<div class="9u skel-cell-important">
-							<section id="content" >
-								<header>
-									<h2>XIX Encontro da Socine</h2>
-									<h5> DE 20 A 23 DE OUTUBRO DE 2015, NA UNICAMP</h5>
-								</header>
-								<p>O XIX Encontro da <a href="http://www.socine.org.br/" target="_blank">SOCINE</a> será realizado na Universidade Estadual de Campinas, a <a href="http://www.unicamp.br" target="_blank">UNICAMP</a>, localizada no Distrito de Barão Geraldo, no município de Campinas, Estado de São Paulo. O tema do encontro é “Cinemas em Redes”, expressão que se refere a um conjunto de mudanças significativas no âmbito da imagem em movimento.  Nelas, as tecnologias e os ecossistemas digitais são parâmetros de transformações e, ao mesmo tempo, sinalizadores de uma fronteira histórica que coloca uma baliza no tempo: o passado analógico, o presente e o futuro digitais. Nesse contexto, velocidade, mobilidade e virtualidade são vetores da ordem do tempo e do espaço das imagens e sons. Arquivos convertidos em bancos de dados permitem novos arranjos para a preservação, disponibilidade e navegação em relação à história do audiovisual. O advento das imagens digitais e computadorizadas reestabelecem uma nova tensão entre o real e o virtual. O descentramento e a disponibilidade dos dispositivos permitem o questionamento sobre os agenciamentos e o poder das imagens. As transformações na distribuição afetam diretamente os cenários independentes e industriais da produção. Portanto, a imaginação, a formulação, o financiamento, a produção, a promoção, a venda, o consumo, a interpretação e o prazer são mobilizados diante das inovações promovidas pelas “redes” e “nuvens” onde se fabricam e circulam os produtos audiovisuais. Seriam os vocabulários artísticos inerentes ao cinema, à televisão e ao vídeo profundamente abalados por tais mudanças tecnológicas, econômicas e culturais? Como os mercados, nas lógicas da geopolítica e do capital transnacional, se (re)definem?  E que estratégicas políticas de subjetivação seriam ativadas nesses processos? Eis alguns tópicos que instigam o presente tema. </p>
-								
-							<p> <strong>ORGANIZAÇÃO E REALIZAÇÃO </strong>
-							</p>
-							<p>
-								<strong>Docentes</strong>
-								<ul>
-									<li>Gilberto Alexandre Sobrinho – Coordenador Geral da Pós-Graduação do IA/UNICAMP</li> 
-									<li>Alfredo Luís Paes Suppia – Coordenador da Pós-Graduação em Multimeios</li>
-									<li>Noel Santos Carvalho – Coordenador da Graduação em Midialogia</li> 
-									<li>Hermes Renato Hildebrand – Coordenador Associado da Graduação em Midialogia</li> 
-									<li>Míriam Viviana Garate</li> 
-									<li>Claudiney Carrasco</li> 
-									<li>Pedro Maciel Guimarães Júnior</li> 
-									<li>Marcius César Soares Freire</li>
-									<li>Fernão Pessoa Ramos</li> 
-									<li>Fábio Nauras Akhras</li>
-									<li>Francisco Elinaldo Teixeira</li>
-									<li>Nuno César Abreu</li> 
-									<li>Ernesto Boccara</li> 
-								</ul>
-							</p>
-							<p>
-								<strong>Discentes</strong>
-								<ul>
-									<li>Antonio Vianna </li> 
-									<li>Letízia Osorio Nicoli</li>
-									<li>Lillian Bento</li> 
-									<li>Régis Rasia</li>
-								</ul>
-							</p>
-						
-							<p>
-								<strong>Instituto de Artes</strong>
-								<ul>
-									<li>Diretor: Fernando Augusto de Almeida Hashimoto </li> 
-									<li>Diretora Associada: Grácia Maria Navarro</li>
-									<li>Chefe do Departamento de Multimeios, Mídia e Comunicação: José Eduardo Ribeiro de Paiva</li> 
-									<li>Chefe do Departamento de Cinema: Francisco Elinaldo Teixeira</li>
-								</ul>
-							</p>
-							<p>
-								<strong>SOCINE/DIRETORIA</strong>
-							<ul>
-								<li>Presidente: Afrânio Mendes Catani (USP)</li>
-								<li>Vice-presidente: Antonio Carlos Amancio da Silva (UFF)</li>
-								<li>Secretária: Alessandra Soares Brandão (UNISUL)</li>
-								<li>Tesoureiro: Maurício Reinaldo Gonçalves (SENAC)</li>
-							</ul>
-							</p>
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top - 91
+			}, 1500,'easeInOutExpo');
+			/*
+			if you don't want to use the easing effects:
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top
+			}, 1000);
+			*/
+			event.preventDefault();
+		});
+	})
+</script> 
 
-							<p> <strong>CONSELHO DELIBERATIVO</strong>
-							</p>
-							<p>
-							<ul>
-								<li>Erick Felinto (UERJ)</li>
-								<li>Esther Hamburger (USP)</li>
-								<li>Fábio Uchoa (UFSCAR)</li>
-								<li>Gilberto Alexandre Sobrinho (UNICAMP)</li>
-								<li>Luíza Beatriz Melo Alvim (UNIRIO)</li>
-								<li>Marcel Vieira Barreto Silva (UFPB)</li>
-								<li>Luiz Augusto Rezende Filho (UFRJ)</li>
-								<li>Mariana Baltar (UFF)</li>
-								<li>Gustavo Souza (UFSCAR)</li>
-								<li>Rogério Carreiro (UFPE)</li>
-								<li>Patrícia Rebello (UERJ)</li>
-								<li>Rafael de Luna Freire (UFF)</li>
-								<li>Ramayana Lira de Souza (UNISUL)</li>
-							</ul>
-							</p>
+<script type="text/javascript">
 
-							<p> <strong>Discentes</strong>
-							</p>
-							<p>
-							<ul>
-								<li>Marina Costa (UFSCAR)</li>
-								<li>Jamer de Mello (UFRGS)</li>
-							</ul>
-						</p>
+   
+  jQuery(document).ready(function($){     
+// Portfolio Isotope
+	var container = $('#portfolio-wrap');	
+	
 
-							<p> <strong>COMITÊ CIENTÍFICO</strong>
-							</p>
-							<p>
-							<ul>
-								<li>Alexandre Figuerôa (UFPE)</li>
-								<li>César Guimarães (UFMG)</li>
-								<li>Genilda Azeredo (UFPB)</li>
-								<li>Maria Dora Mourão (USP)</li>
-								<li>Miguel Pereira (PUC – Rio)</li>
-								<li>Sheila Schvarzman (UAM)</li>
-							</ul>
-							</p>
-								
-							</section>
-						</div>
-					</div>
+	container.isotope({
+		animationEngine : 'best-available',
+	  	animationOptions: {
+	     	duration: 200,
+	     	queue: false
+	   	},
+		layoutMode: 'fitRows'
+	});	
 
-				</div>	
-			</div>
-
-
-			<!-- Copyright -->
-			<div id="copyright">
-				<div class="container">
-					<div class="img-footer">
-				</div>
-			</div>
+	$('#filters a').click(function(){
+		$('#filters a').removeClass('active');
+		$(this).addClass('active');
+		var selector = $(this).attr('data-filter');
+	  	container.isotope({ filter: selector });
+        setProjects();		
+	  	return false;
+	});
+		
+		
+		function splitColumns() { 
+			var winWidth = $(window).width(), 
+				columnNumb = 1;
 			
-		</div>
-	</body>
-	<script src="js/post.js"></script>
+			
+			if (winWidth > 1024) {
+				columnNumb = 4;
+			} else if (winWidth > 900) {
+				columnNumb = 2;
+			} else if (winWidth > 479) {
+				columnNumb = 2;
+			} else if (winWidth < 479) {
+				columnNumb = 1;
+			}
+			
+			return columnNumb;
+		}		
+		
+		function setColumns() { 
+			var winWidth = $(window).width(), 
+				columnNumb = splitColumns(), 
+				postWidth = Math.floor(winWidth / columnNumb);
+			
+			container.find('.portfolio-item').each(function () { 
+				$(this).css( { 
+					width : postWidth + 'px' 
+				});
+			});
+		}		
+		
+		function setProjects() { 
+			setColumns();
+			container.isotope('reLayout');
+		}		
+		
+		container.imagesLoaded(function () { 
+			setColumns();
+		});
+		
+	
+		$(window).bind('resize', function () { 
+			setProjects();			
+		});
+
+});
+$( window ).load(function() {
+	jQuery('#all').click();
+	return false;
+});
+</script>
+<script src="contactform/contactform.js"></script>
+
+</body>
 </html>
