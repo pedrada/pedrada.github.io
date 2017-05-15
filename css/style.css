@@ -34,6 +34,11 @@ body {
 /*  --detail: #f86942;    */
     --detail: #000;
     --bgcolor: #c0c0c0;
+    --color1: #3AC8B8;
+    --color2: #C91118;
+    --color3: #C02D8F;
+    --color4: #92378E;
+    --color5: #397DEF;
 }
 @media screen and (max-width: 768px) {
   body {
@@ -55,6 +60,27 @@ body {
 ::selection {
   color: #ffffff;
   background: #90d7ea;
+}
+
+.color1 {
+    background-color: var(--color1);
+}
+
+.color2 {
+    background-color: var(--color2);
+    color: #fff;
+}
+
+.color3 {
+    background-color: var(--color3);
+}
+
+.color4 {
+    background-color: var(--color4);
+}
+
+.color5 {
+    background-color: var(--color5);
 }
 
 a {
@@ -703,7 +729,7 @@ textarea {
   background-repeat: no-repeat;
 /*  background-position: center center;*/
 /*  background-image: url(../images/logo-1.png);*/
-  margin-bottom: 10em;
+  margin-bottom: 6em;
   float: left;
   width: 100%;
     height: 0;
@@ -715,6 +741,7 @@ textarea {
 @media screen and (max-width: 768px) {
   #fh5co-hero {
     background-position: center center;
+      margin-bottom: 0em;
   }
 }
 #fh5co-hero:after {
