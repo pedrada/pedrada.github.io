@@ -387,9 +387,17 @@
 		} , { offset: '70%' } );
 
 	};
+    
+    
+    
+    var randomColor = function() {
+        
+        var n = Math.floor((Math.random() * 4) + 1);
+        var imgurl = "images/logo-" + n + ".png";
+        document.getElementById("banner").setAttribute("src", imgurl);
 
-	
-
+    };
+    
 
 	
 	$(function(){
@@ -414,6 +422,8 @@
 		worksWayPoint();
 		footerWayPoint();
 		contentWayPoint();
+        
+        randomColor();
 
 
 	});

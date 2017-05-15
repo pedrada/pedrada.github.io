@@ -47,6 +47,11 @@ body {
   }
 }
 
+.reverse {
+    color: #fff;
+    background-color: var(--bgcolor); 
+}
+
 ::-webkit-selection {
   color: #ffffff;
   background: #90d7ea;
@@ -719,6 +724,10 @@ textarea {
   list-style: none;
 }
 
+.prog {
+    width: 100%;
+}
+
 .banner {
     width: inherit;
 }
@@ -885,7 +894,7 @@ body.inner-page #fh5co-hero .fh5co-hero-wrap {
 }
 
 #fh5co-main {
-  padding-top: 50px;
+/*  padding-top: 50px;*/
   position: relative;
   float: left;
   width: 100%;
