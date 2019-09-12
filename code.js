@@ -133,7 +133,9 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
 
 		  console.log(pr + ' ' + t + ' ' + pi + ' ' + pf + ' ' + oi + ' ' + e1 + ' ' + e2);
 
-			alert(ibf(pr,t,pi,pf,oi,e1,e2));
+
+
+			alert(getAnswer( ibf(pr,t,pi,pf,oi,e1,e2)) );
 
 			// for each question...
 			// for(var i=0; i<questions.length; i++){
@@ -169,6 +171,16 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
 	}
 }
 
+
+function getAnswer(ibf) {
+	if (ibf > 1) {
+		return "Right of privacy prevails";
+	}
+	if (ibf < 1) {
+		return "Freedom of expression prevails";
+	}
+	return "Stalemate"
+}
 
 //Algorithm: Internt Balancing Formula
 function ibf(pr, t, pi, pf, oi, e1, e2) {
